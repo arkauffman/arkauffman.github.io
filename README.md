@@ -1,2 +1,11 @@
-# arkauffman.github.io
-My Personal Website
+# Alexandra Kauffman
+---
+## Personal Website
+
+### Education
+
+### City
+
+### Work
+
+### Social Media
