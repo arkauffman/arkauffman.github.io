@@ -98,6 +98,17 @@ body {
     padding: 15px 30px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
 footer {
 	letter-spacing: .08em;
 	font-weight: 500;
