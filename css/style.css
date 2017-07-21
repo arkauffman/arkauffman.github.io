@@ -49,6 +49,19 @@ p {
     color: #7c8ca5;
 }
 
+#me {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(URL) no-repeat;
+    border: 10px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
 .profile {
     text-align: center;
     width: 100%;
@@ -88,6 +101,10 @@ body {
   margin-bottom: 60px;
 } 
 
+.about {
+    text-align: left;
+    padding-right: 15px;
+}
 .footer {
     position: absolute;
     bottom: 0;
@@ -112,4 +129,18 @@ li {
 footer {
 	letter-spacing: .08em;
 	font-weight: 500;
+}
+
+.card {
+    float: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 30%;
+    height: 50%;
+}
+
+#uw, #dt {
+    width: 5%;
+    border: none;
 }
