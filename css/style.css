@@ -43,6 +43,7 @@ nav a:hover {
     text-decoration: none !important;
 }
 
+
 p {
     font-family: Helvetica;
     text-align: center;
@@ -62,9 +63,9 @@ p {
     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .8);
 }
 
-.profile {
+ .profile {
     text-align: center;
-    width: 100%;
+    width: 100%; 
     top: 120%;
     left: 0;
     padding: 5px;
@@ -77,7 +78,7 @@ p {
     content: " ";
     clear: both;
     height: 20px;
-}
+} 
 
 img {
     width: 50%;
@@ -105,7 +106,8 @@ body {
     text-align: left;
     padding-right: 15px;
 }
-.footer {
+
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -113,6 +115,8 @@ body {
     background-color: #445063;
     text-transform: uppercase;
     padding: 15px 30px;
+    letter-spacing: .08em;
+	font-weight: 500;
 }
 
 ul {
@@ -125,22 +129,34 @@ ul {
 li {
     float: right;
 }
-
-footer {
-	letter-spacing: .08em;
-	font-weight: 500;
-}
-
+ 
 .card {
     float: center;
     background-color: white;
     padding: 10px;
     border-radius: 15px;
-    width: 30%;
-    height: 50%;
+    /* height: 200px; */
+    width: 200px;  
+} 
+
+.trendsy {
+    height: 180px;
+    width: 200px;
+} 
+
+.text-align {
+    text-align: center;
+    margin: 0 auto;
+} 
+
+img.responsive {
+    padding: 20px;
+    border: 6px solid white; 
+    width: 300px;
+    height: 250px;
 }
 
-#uw, #dt {
-    width: 5%;
-    border: none;
+img.responsive:hover {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
