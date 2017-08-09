@@ -12,7 +12,7 @@ header {
 h1 {
     font-family: Helvetica;
     text-align: center;
-    color: #E6DEDC;
+    color: #7c8ca5;
     border-bottom: transparent;
     font-weight: 500;
 }
@@ -136,8 +136,7 @@ li {
 } 
 
 img.responsive {
-    padding: 20px;
-    border: 6px solid white; 
+    border: 3px solid #E6DEDC; 
     width: 300px;
     height: 250px;
 }
