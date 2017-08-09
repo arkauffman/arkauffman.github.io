@@ -18,7 +18,7 @@ h1 {
 h2 {
    font-family: Helvetica;
     text-align: center;
-    color: #7c8ca5; 
+    color: #2d2d2d; 
 }
 
 nav {
@@ -51,7 +51,7 @@ nav a:hover {
 p {
     font-family: Helvetica;
     text-align: center;
-    color: #7c8ca5;
+    color: #2d2d2d;
 }
 
 #me {
@@ -86,7 +86,7 @@ p {
 
 img {
     width: 50%;
-    border: 2px solid #445063;
+    border: 2px solid #2d2d2d;
 }
 
 .initials {
@@ -116,7 +116,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 50px;
-    background-color: #445063;
+    background-color: #2d2d2d;
     text-transform: uppercase;
     padding: 15px 30px;
     letter-spacing: .08em;
