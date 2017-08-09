@@ -1,10 +1,10 @@
 body {
     margin: 0;
-    background-color: #eaf2ff;
+    /* background-color: #E6DEDC; */
 }
 
 header {
-    background-color: #eaf2ff;
+    /* background-color: #E6DEDC; */
     padding: 10px 20px;
     border-bottom: 3px solid #445063;
 }
@@ -12,7 +12,7 @@ header {
 h1 {
     font-family: Helvetica;
     text-align: center;
-    color: #7c8ca5;
+    color: #E6DEDC;
     border-bottom: transparent;
     font-weight: 500;
 }
@@ -57,7 +57,7 @@ p {
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
     background: url(URL) no-repeat;
-    border: 10px solid white;
+    border: 10px solid #f8f8ff;
     box-shadow: 0 0 10px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .8);
@@ -130,20 +130,6 @@ li {
     float: right;
 }
  
-.card {
-    float: center;
-    background-color: white;
-    padding: 10px;
-    border-radius: 15px;
-    /* height: 200px; */
-    width: 200px;  
-} 
-
-.trendsy {
-    height: 180px;
-    width: 200px;
-} 
-
 .text-align {
     text-align: center;
     margin: 0 auto;
