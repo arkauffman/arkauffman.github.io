@@ -28,7 +28,7 @@ nav {
 
 a {
     font-family: Helvetica;
-    color: #2d2d2d;
+    color: white;
     letter-spacing: 2px;
     font-weight: 500;
     font-size: 15px;
@@ -36,7 +36,7 @@ a {
 }
 
 nav a:hover { 
-    color: #fff !important; 
+    color: #eee9e9 !important; 
     border-bottom: 2px !important;
     text-decoration: none !important;
 }
