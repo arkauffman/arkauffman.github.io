@@ -1,3 +1,8 @@
+html {
+    position: relative;
+    min-height: 100%;
+} 
+
 body {
     margin: 0;
     font-family: 'PT Serif', serif; 
@@ -6,6 +11,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin-bottom: 60px;
 }
 
 header {
@@ -50,10 +56,10 @@ a {
     text-align: center;
     padding: 30px 20px;
     margin: 20px;
-  }
+}
 
 nav a:hover, a:hover { 
-    color: #eee9e9 !important; 
+    color: #FFB26A !important; 
     border-bottom: 2px !important;
     text-decoration: none !important;
 }
@@ -61,7 +67,6 @@ nav a:hover, a:hover {
 .container {
     height: 100%;
     margin-top: 30px;
-    /* margin-bottom: 100px; */
     border: 1px solid #eee9e9;
     box-shadow: 0 0 3px rgba(0, 0, 0, .8);
 }
@@ -115,30 +120,9 @@ img {
     float: right;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-} 
-
-body {
-  margin-bottom: 60px;
-} 
-
 .about {
     text-align: left;
     padding-right: 15px;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    background-color: #2d2d2d;
-    text-transform: uppercase;
-    padding: 15px 30px;
-    letter-spacing: .08em;
-	font-weight: 500;
 }
 
 ul {
@@ -158,7 +142,7 @@ li {
 } 
 
 img.responsive {
-    border: 1px solid #2d2d2d; 
+    border: 2px solid white; 
     box-shadow: 0 0 3px rgba(0, 0, 0, .8);
     width: 300px;
     height: 250px;
@@ -167,4 +151,16 @@ img.responsive {
 img.responsive:hover {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #2d2d2d;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    letter-spacing: .08em;
+	font-weight: 500;
 }
