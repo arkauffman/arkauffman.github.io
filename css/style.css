@@ -1,16 +1,21 @@
 body {
     margin: 0;
     font-family: 'PT Serif', serif; 
+    background: url('https://i.imgur.com/c47Utou.jpg') center fixed;   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 header {
     padding: 10px 20px;
-    border-bottom: 3px solid #2d2d2d;
+    border-bottom: 2px solid white;
 }
 
 h1 {
     text-align: center;
-    color: #2d2d2d;
+    color: white;
     border-bottom: transparent;
     font-weight: 500;
 }
@@ -18,7 +23,7 @@ h1 {
 h2 {
    font-family: Helvetica;
     text-align: center;
-    color: #2d2d2d; 
+    color: white; 
 }
 
 nav {
@@ -36,26 +41,34 @@ a {
 }
 
 .porty {
-    color: #2d2d2d;
+    color: white;
 }
 
-nav a:hover { 
+.blur {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px;
+  }
+
+nav a:hover, a:hover { 
     color: #eee9e9 !important; 
     border-bottom: 2px !important;
     text-decoration: none !important;
 }
 
 .container {
+    height: 100%;
     margin-top: 30px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     border: 1px solid #eee9e9;
     box-shadow: 0 0 3px rgba(0, 0, 0, .8);
 }
 
 p {
-    font-family: Helvetica;
     text-align: center;
-    color: #2d2d2d;
+    color: white;
 }
 
 #me {
@@ -65,13 +78,13 @@ p {
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
     background: url(URL) no-repeat;
-    border: 10px solid #f8f8ff;
+    border: 5px solid #f8f8ff;
     box-shadow: 0 0 10px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .8);
 }
 
- .profile {
+.profile {
     text-align: center;
     width: 100%; 
     top: 120%;
