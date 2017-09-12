@@ -12,6 +12,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     margin-bottom: 60px;
+    line-height: 1.41;
 }
 
 .text {
@@ -190,7 +191,7 @@ p {
 .about {
     text-align: left;
     padding-right: 15px;
-    padding-top: 45px;
+    padding-top: 43px;
 }
 
 ul {
