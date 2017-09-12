@@ -6,7 +6,7 @@ html {
 body {
     margin: 0;
     font-family: 'PT Serif', serif; 
-    background: url('https://i.imgur.com/c47Utou.jpg') center fixed;   
+    background: url('https://i.imgur.com/c47Utou.jpg') no-repeat center center fixed;   
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,22 +14,86 @@ body {
     margin-bottom: 60px;
 }
 
+.text {
+    fill: none;
+    stroke-width: 4;
+    stroke-linejoin: round;
+    stroke-dasharray: 70 330;
+    stroke-dashoffset: 0;
+    -webkit-animation: stroke 7s infinite linear;
+    animation: stroke 7s infinite linear;
+}
+
+.text:nth-child(5n + 1) {
+    stroke: white;
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}
+.text:nth-child(5n + 2) {
+    stroke: white;
+    -webkit-animation-delay: -2.2s;
+    animation-delay: -2.2s;
+}
+
+.text:nth-child(5n + 3) {
+    stroke: white;
+    -webkit-animation-delay: -3.4s;
+animation-delay: -3.4s;
+}
+
+.text:nth-child(5n + 4) {
+    stroke: white;
+    -webkit-animation-delay: -4.6s;
+    animation-delay: -4.6s;
+}
+
+.text:nth-child(5n + 5) {
+    stroke: white;
+    -webkit-animation-delay: -5.8s;
+    animation-delay: -5.8s;
+}
+
+@-webkit-keyframes stroke {
+    100% {
+        stroke-dashoffset: -400;
+    }
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: -400;
+    }
+}
+
+text {
+    font-size: 120px;
+    letter-spacing: 0.15em;
+}
+
+.box-with-text {
+    background-size: .2em 100%;
+    font: 50px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+}
+
 header {
     padding: 10px 20px;
     border-bottom: 2px solid white;
 }
 
+.portfolio {
+    padding-top: 60px;
+}
+
 h1 {
     text-align: center;
     color: white;
-    border-bottom: transparent;
-    font-weight: 500;
-}
-
-h2 {
-   font-family: Helvetica;
-    text-align: center;
-    color: white; 
+    text-transform: uppercase;
+    background-size: .2em 100%;
+    font: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
 }
 
 nav {
@@ -46,19 +110,15 @@ a {
     margin: 0 20px; 
 }
 
-.porty {
-    color: white;
-}
-
 .blur {
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     text-align: center;
     padding: 30px 20px;
-    margin: 20px;
+    margin: 20px !important;
 }
 
-nav a:hover, a:hover { 
+a:hover { 
     color: #FFB26A !important; 
     border-bottom: 2px !important;
     text-decoration: none !important;
@@ -74,6 +134,10 @@ nav a:hover, a:hover {
 p {
     text-align: center;
     color: white;
+}
+
+.project {
+    padding: 15px 78px;
 }
 
 #me {
@@ -105,11 +169,6 @@ p {
     clear: both;
     height: 20px;
 } 
-
-img {
-    width: 50%;
-    border: 2px solid #2d2d2d;
-}
 
 .initials {
     float: left;
@@ -164,4 +223,10 @@ footer {
     padding: 15px 30px;
     letter-spacing: .08em;
 	font-weight: 500;
+}
+
+@media only screen and (max-width: 439px) {
+    .blur {
+        margin: 0 auto !important;
+    }
 }
