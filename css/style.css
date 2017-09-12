@@ -82,6 +82,10 @@ header {
     border-bottom: 2px solid white;
 }
 
+.home {
+    padding-bottom: 80px;
+}
+
 .portfolio {
     padding-top: 100px;
 }
@@ -125,10 +129,10 @@ a:hover {
 }
 
 .container {
-    height: 100%;
-    margin-top: 30px;
     border: 1px solid #eee9e9;
     box-shadow: 0 0 3px rgba(0, 0, 0, .8);
+    margin-top: 15px;
+    height: 100%;
 }
 
 p {
