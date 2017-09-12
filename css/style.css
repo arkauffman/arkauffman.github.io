@@ -86,6 +86,10 @@ header {
     padding-bottom: 80px;
 }
 
+.profile-picture {
+    padding-top: 50px;
+}
+
 .portfolio {
     padding-top: 100px;
 }
@@ -106,12 +110,13 @@ nav {
 } 
 
 a {
-    font-family: Helvetica;
+    font-family: 'PT Serif', serif; 
+    text-decoration: underline;
     color: white;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     font-weight: 500;
     font-size: 15px;
-    margin: 0 20px; 
+    /* margin: 0 20px;  */
 }
 
 .blur {
@@ -131,7 +136,6 @@ a:hover {
 .container {
     border: 1px solid #eee9e9;
     box-shadow: 0 0 3px rgba(0, 0, 0, .8);
-    margin-top: 15px;
     height: 100%;
 }
 
@@ -186,6 +190,7 @@ p {
 .about {
     text-align: left;
     padding-right: 15px;
+    padding-top: 45px;
 }
 
 ul {
@@ -196,6 +201,7 @@ ul {
 }
 
 li {
+    margin: 0 15px; 
     float: right;
 }
  
