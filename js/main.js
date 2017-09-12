@@ -2,7 +2,7 @@ $(document).ready(function() {
     var aboveHeight = $('header').outerHeight();
     $(window).scroll(function(){
         if ($(window).scrollTop() > aboveHeight){
-            $('nav').addClass('fixed').css('top','0').next()
+            $('nav').addClass('fixed').next()
         } else {
             $('nav').removeClass('fixed').next()
         }
@@ -24,7 +24,7 @@ $('a[href*="#"]')
             event.apreventDefault();
             $('html, body').animate({
                 scrollTop: target.offset().top
-            }, 2000, function() {
+            }, 3000, function() {
                 var $target = $(target);
                 $target.focus();
             });
