@@ -13,6 +13,7 @@ body {
     background-size: cover;
     margin-bottom: 60px;
     line-height: 1.41;
+    min-height: 100%;
 }
 
 .text {
