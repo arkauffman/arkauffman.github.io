@@ -237,8 +237,21 @@ footer {
 	font-weight: 500;
 }
 
-@media only screen and (max-width: 439px) {
+@media only screen and (max-width: 439px) and 
+(min-width: 768px) {
     .blur {
         margin: 0 auto !important;
     }
+    .container {
+        width: 1000px;
+    }
 }
+
+/* @media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { 
+    .blur {
+        padding: 200px !important;
+ 
+    }
+} */
