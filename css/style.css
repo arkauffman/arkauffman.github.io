@@ -190,8 +190,7 @@ p {
 
 .about {
     text-align: left;
-    padding-right: 15px;
-    padding-top: 43px;
+    padding: 43px 15px 0 15px;;
 }
 
 ul {
@@ -239,5 +238,8 @@ footer {
 @media only screen and (max-width: 439px) {
     .blur {
         margin: 0 auto !important;
+    }
+    .box-with-text {
+        padding: 50px !important;
     }
 }
