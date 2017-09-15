@@ -287,4 +287,8 @@ footer {
     .fa {
         font-size: 40px !important;
     }
+
+    li {
+        padding-left: 20px !important;
+    }
 }
