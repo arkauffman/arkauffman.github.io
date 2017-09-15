@@ -96,10 +96,6 @@ i {
     padding-top: 50px !important;
 }
 
-.col-md-3 {
-    padding: 40px;
-}
-
 .profile-picture {
     padding-top: 50px;
 }
@@ -132,10 +128,19 @@ nav {
 
 a {
     font-family: 'PT Serif', serif; 
-    text-decoration: underline;
+    text-decoration: none;
     color: white;
     font-weight: 500;
     font-size: 18px;
+}
+
+.porty {
+    padding: 20px !important;
+}
+
+.current {
+    padding: 0 !important;
+    font-size: 14px;
 }
 
 .blur {
@@ -144,12 +149,6 @@ a {
     text-align: center;
     padding: 30px 20px;
     margin: 20px !important;
-}
-
-a:hover { 
-    color: #FFB26A !important; 
-    border-bottom: 2px !important;
-    text-decoration: none !important;
 }
 
 .container {
@@ -248,9 +247,30 @@ img.responsive {
     height: 250px;
 }
 
-img.responsive:hover, i:hover, .col-md-3:hover {
+img.responsive:hover {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
+}
+
+a:hover { 
+    color: white !important;
+    border-bottom: 2px !important;
+    text-decoration: none !important;
+}
+
+.col-md-3, .porty {
+    padding: 40px;
+    opacity: 0.65;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.col-md-3:hover, .porty:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
 }
 
 footer {
@@ -317,6 +337,3 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 95%;
     }
 }
-
-/* @media only screen and (max-width: 768px) {
-} */
