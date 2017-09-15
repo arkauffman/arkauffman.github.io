@@ -255,6 +255,10 @@ footer {
         background-image: none;
     }
 
+    .box-with-text {
+        padding-right: 35px !important;
+    }
+
     a {
         font-size: 30px !important;
     }
