@@ -39,7 +39,7 @@ body {
 .text:nth-child(5n + 3) {
     stroke: white;
     -webkit-animation-delay: -3.4s;
-animation-delay: -3.4s;
+    animation-delay: -3.4s;
 }
 
 .text:nth-child(5n + 4) {
@@ -121,10 +121,8 @@ a {
     font-family: 'PT Serif', serif; 
     text-decoration: underline;
     color: white;
-    /* letter-spacing: 2px; */
     font-weight: 500;
-    font-size: 15px;
-    /* margin: 0 20px;  */
+    font-size: 18px;
 }
 
 .blur {
@@ -173,6 +171,10 @@ svg {
     max-height: 100%;
 }
 
+.location {
+    font-size: 20px;
+}
+
 .profile {
     text-align: center;
     width: 100%; 
@@ -199,9 +201,13 @@ svg {
     float: right;
 }
 
+.fa {
+    font-size: 15px !important;
+}
+
 .about {
     text-align: left;
-    padding: 43px 15px 0 15px;;
+    padding: 60px 15px 0 15px;;
 }
 
 ul {
@@ -261,5 +267,24 @@ footer {
 
     a {
         font-size: 30px !important;
+    }
+
+    footer {
+       padding: 80px;
+    }
+
+    .initials {
+        font-size: 45px;
+        position: relative;
+        bottom: 25px;
+    }
+
+    ul {
+        position: relative;
+        bottom: 15px;
+    }
+
+    .fa {
+        font-size: 40px !important;
     }
 }
