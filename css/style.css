@@ -251,12 +251,8 @@ footer {
 @media only screen and (min-width: 414px) and (min-height: 732px) {
     body {
         font-size: 30px !important;
-        background-color: #cfcfc4 !important;
+        background-color: whitesmoke !important;
         background-image: none;
-    }
-
-    .box-with-text {
-        padding-right: 35px !important;
     }
 
     a {
