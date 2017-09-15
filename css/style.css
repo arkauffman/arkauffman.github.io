@@ -291,4 +291,12 @@ footer {
     li {
         padding-left: 20px !important;
     }
+
+    .quote {
+        font-size: 35px;
+    }
+
+    .container {
+        width: 95%;
+    }
 }
