@@ -258,45 +258,52 @@ footer {
     }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
     body {
         font-size: 30px !important;
         background-color: whitesmoke !important;
         background-image: none;
     }
-
+    
     a {
         font-size: 30px !important;
     }
-
+    
     footer {
        padding: 80px;
     }
-
+    
     .initials {
         font-size: 45px;
         position: relative;
         bottom: 25px;
     }
-
+    
     ul {
         position: relative;
         bottom: 15px;
     }
-
+    
     .fa {
         font-size: 40px !important;
     }
-
+    
     li {
         padding-left: 20px !important;
     }
-
+    
     .quote {
         font-size: 35px;
     }
-
+    
     .container {
         width: 95%;
     }
 }
+
+/* @media only screen and (max-width: 768px) {
+} */
