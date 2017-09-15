@@ -169,6 +169,10 @@ p {
     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .8);
 }
 
+svg {
+    max-height: 100%;
+}
+
 .profile {
     text-align: center;
     width: 100%; 
