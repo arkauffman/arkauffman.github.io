@@ -301,6 +301,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         background-color: whitesmoke !important;
         background-image: none;
     }
+
+    .blur {
+        background: #aec6cf !important;
+    }
     
     a {
         font-size: 30px !important;
@@ -314,6 +318,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 45px;
         position: relative;
         bottom: 25px;
+    }
+
+    i {
+        color: white !important;
+        font-size: 100px;
     }
     
     ul {
