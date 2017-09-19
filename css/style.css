@@ -13,6 +13,7 @@ body {
     background-size: cover;
     margin-bottom: 60px;
     line-height: 1.41;
+    padding-bottom: 15px !important;
 }
 
 .text {
@@ -222,7 +223,7 @@ svg {
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: -4px !important;
     padding: 0;
     overflow: hidden;
 }
@@ -279,242 +280,154 @@ a:hover {
     -webkit-transition: opacity 1s ease-in-out;
 }
 
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover,
+#eight:hover, #nine:hover, #ten:hover, #eleven:hover, #twelve:hover, #thirteen:hover,
+#fourteen:hover, #fifteen:hover, #sixteen:hover, #seventeen:hover, #eighteen:hover,
+#nineteen:hover, #twenty:hover, #twentyone:hover, .col-xs-3:hover,
+.porty:hover, .current:hover, .home-page:hover, .skills-page:hover,
+.portfolio-page:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+}
+
 #one:hover {
-   opacity: 1.0;
-   transition: opacity .75s ease-in-out;
-   -moz-transition: opacity .75s ease-in-out;
-   -webkit-transition: opacity .75s ease-in-out;
    color: #FF0000;
    color: -webkit-linear-gradient(to left, white, #FF0000);
    color: linear-gradient(to left, white, #FF0000); 
 }
 
 #two:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #FF5B5B;
     color: -webkit-linear-gradient(to left, white, #FF5B5B);
     color: linear-gradient(to left, white, #FF5B5B);
 }
 
 #three:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #EC9E9E;
     color: -webkit-linear-gradient(to left, white, #EC9E9E);
     color: linear-gradient(to left, white, #EC9E9E);
 }
 
 #four:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #FFAE00;
     color: -webkit-linear-gradient(to left, white, #FFAE00);
     color: linear-gradient(to left, white, #FFAE00);
 }
 
 #five:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #FAC32B;
     color: -webkit-linear-gradient(to left, white, #FAC32B);
     color: linear-gradient(to left, white, #FAC32B);
 }
 
 #six:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #FFC156;
     color: -webkit-linear-gradient(to left, white, #FFC156);
     color: linear-gradient(to left, white, #FFC156);
 }
 
 #seven:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #FFFF5E;
     color: -webkit-linear-gradient(to left, white, #FFFF5E);
     color: linear-gradient(to left, white, #FFFF5E);
 }
 
 #eight:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #ECFFA6;
     color: -webkit-linear-gradient(to left, white, #ECFFA6);
     color: linear-gradient(to left, white, #ECFFA6);
 }
 
 #nine:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #C7FF5E;
     color: -webkit-linear-gradient(to left, white, #C7FF5E);
     color: linear-gradient(to left, white, #C7FF5E);
 }
 
 #ten:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #5EFF86;
     color: -webkit-linear-gradient(to left, white, #5EFF86);
     color: linear-gradient(to left, white, #5EFF86);
 }
 
 #eleven:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #6EBB6E;
     color: -webkit-linear-gradient(to left, white, #6EBB6E);
     color: linear-gradient(to left, white, #6EBB6E);
 }
 
 #twelve:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #AAEBD5;
     color: -webkit-linear-gradient(to left, white, #AAEBD5);
     color: linear-gradient(to left, white, #AAEBD5);
 }
 
 #thirteen:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #6BE1FF;
     color: -webkit-linear-gradient(to left, white, #6BE1FF);
     color: linear-gradient(to left, white, #6BE1FF);
 }
 
 #fourteen:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #6BA6FF;
     color: -webkit-linear-gradient(to left, white, #6BA6FF);
     color: linear-gradient(to left, white, #6BA6FF);
 }
 
 #fifteen:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #5F89FA;
     color: -webkit-linear-gradient(to left, white, #5F89FA);
     color: linear-gradient(to left, white, #5F89FA);
 }
 
 #sixteen:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #B8B8F3;
     color: -webkit-linear-gradient(to left, white, #B8B8F3);
     color: linear-gradient(to left, white, #B8B8F3);
 }
 
 #seventeen:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #B090EB;
     color: -webkit-linear-gradient(to left, white, #B090EB);
     color: linear-gradient(to left, white, #B090EB);
 }
 
 #eighteen:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #E090EB;
     color: -webkit-linear-gradient(to left, white, #E090EB);
     color: linear-gradient(to left, white, #E090EB);
 }
 
 #nineteen:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #EB90BE;
     color: -webkit-linear-gradient(to left, white, #EB90BE);
     color: linear-gradient(to left, white, #EB90BE);
 }
 
 #twenty:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #FCB0FC;
     color: -webkit-linear-gradient(to left, white, #FCB0FC);
     color: linear-gradient(to left, white, #FCB0FC);
 }
 
 .home-page:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #bebeff;
     color: -webkit-linear-gradient(to left, white, #bebeff);
     color: linear-gradient(to left, white, #bebeff);
 }
 
 .skills-page:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #ffe1be;
     color: -webkit-linear-gradient(to left, white, #ffe1be);
     color: linear-gradient(to left, white, #ffe1be);
 }
 
 .portfolio-page:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
     color: #ffbeff;
     color: -webkit-linear-gradient(to left, white, #ffbeff);
     color: linear-gradient(to left, white, #ffbeff);
-}
-
-
-.col-xs-3:hover, .porty:hover, .current:hover {
-    opacity: 1.0;
-    transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -webkit-transition: opacity .75s ease-in-out;
 }
 
 footer {
