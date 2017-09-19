@@ -12,11 +12,12 @@
     <script src="./js/main.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <!-- <link type = "text/css" rel="stylesheet" href="./css/style.css">     -->
-    <link type="text/css" rel="stylesheet" href="https://arkauffman.github.io/arkauffman.github.io/css/style.css">   
+    <link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet">
+    <link type = "text/css" rel="stylesheet" href="./css/style.css">    
+    <!-- <link type="text/css" rel="stylesheet" href="https://arkauffman.github.io/arkauffman.github.io/css/style.css">    -->
     <script src="https://use.fontawesome.com/36bb339d58.js"></script>
 </head>
-<body id="homePage">
+<body id="homePage" data-spy="scroll" data-target="#scroll-spy">
     <br>
     <div class="container">
         <div class="blur">
@@ -45,13 +46,12 @@
                 </div>
 
                 <nav>
-                    <a class="porty" href="#homePage">Home</a> |
-                    <a class="porty" href="#about">About</a> |
-                    <a class="porty" href="#skills">Skills</a> | 
-                    <a class="porty" href="#portfolio">Portfolio</a>
+                    <a class="home-page" id="porty" href="#homePage">Home</a> |
+                    <a class="skills-page" id="porty" href="#skills">Skills</a> | 
+                    <a class="portfolio-page" id="porty" href="#portfolio">Portfolio</a>
                 </nav>
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-12">  
                         <p class="quote">
                             "Those who imagine anything can create the impossible."
@@ -59,20 +59,7 @@
                             Alan Turing
                         </p>
                     </div>
-                </div>
-            </div>
-
-            <div class="about">
-                <header id="about">
-                    <h1>About</h1>
-                </header>
-
-                <nav>
-                    <a class="porty" href="#homePage">Home</a> |
-                    <a class="porty" href="#about">About</a> |
-                    <a class="porty" href="#skills">Skills</a> | 
-                    <a class="porty" href="#portfolio">Portfolio</a>
-                </nav>
+                </div> -->
 
                 <div class="row">
                     <div class="col-md-6">
@@ -82,6 +69,11 @@
                     </div>
                     <div class="col-md-6">
                         <p class="about"> 
+
+                            "Those who imagine anything can create the impossible."
+                            <br>
+                            Alan Turing
+                            <br><br>
                             My name is Alexandra Kauffman and I am currently working on a project with
                             <a href="johnmichaelsolis.com" target="_blank" class="current">John Solis</a> to amp up <a href="http://impeccablelooks.com/" target="_blank" class="current">Impeccable Look's</a>
                             website. I recently graduated from General Assembly's Web Development Immersive Program where 
@@ -106,77 +98,76 @@
                 </header>
 
                 <nav>
-                    <a class="porty" href="#homePage">Home</a> |
-                    <a class="porty" href="#about">About</a> |
-                    <a class="porty" href="#skills">Skills</a> | 
-                    <a class="porty" href="#portfolio">Portfolio</a>
+                    <a class="home-page" id="porty" href="#homePage">Home</a> |
+                    <a class="skills-page" id="porty" href="#skills">Skills</a> | 
+                    <a class="portfolio-page" id="porty" href="#portfolio">Portfolio</a>
                 </nav>
 
                 <div class="row">
-                    <div class="tech-skills">
-                        <div class="col-xs-3">
-                            <i class="devicon-amazonwebservices-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-bootstrap-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-css3-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-express-original-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-git-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-github-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-heroku-line-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-html5-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-intellij-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-java-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-javascript-plain"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-jquery-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-mongodb-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-nodejs-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-postgresql-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-rails-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-react-original-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-ruby-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-trello-plain-wordmark"></i>
-                        </div>
-                        <div class="col-xs-3">
-                            <i class="devicon-visualstudio-plain-wordmark"></i>
+                        <div class="tech-skills">
+                            <div class="col-xs-3" id="one">
+                                <i class="devicon-amazonwebservices-plain-wordmark"></i>
+                            </div>
+                            <div class="col-xs-3" id="two">
+                                <i class="devicon-bootstrap-plain-wordmark" ></i>
+                            </div>
+                            <div class="col-xs-3" id="three">
+                                <i class="devicon-css3-plain-wordmark" ></i>
+                            </div>
+                            <div class="col-xs-3" id="four">
+                                <i class="devicon-express-original-wordmark"></i>
+                            </div>
+                            <div class="col-xs-3" id="five">
+                                <i class="devicon-git-plain-wordmark"></i>
+                            </div>
+                            <div class="col-xs-3" id="six">
+                                <i class="devicon-github-plain-wordmark"></i>
+                            </div>
+                            <div class="col-xs-3" id="seven">
+                                <i class="devicon-heroku-line-wordmark" ></i>
+                            </div>
+                            <div class="col-xs-3" id="eight">
+                                <i class="devicon-html5-plain-wordmark" ></i>
+                            </div>
+                            <div class="col-xs-3" id="nine">
+                                <i class="devicon-intellij-plain-wordmark"></i>
+                            </div>
+                            <div class="col-xs-3" id="ten">
+                                <i class="devicon-java-plain-wordmark" ></i>
+                            </div>
+                            <div class="col-xs-3" id="eleven">
+                                <i class="devicon-javascript-plain" ></i>
+                            </div>
+                            <div class="col-xs-3" id="twelve">
+                                <i class="devicon-jquery-plain-wordmark" ></i>
+                            </div>
+                            <div class="col-xs-3" id="thirteen">
+                                <i class="devicon-mongodb-plain-wordmark" ></i>
+                            </div>
+                            <div class="col-xs-3" id="fourteen">
+                                <i class="devicon-nodejs-plain-wordmark" ></i>
+                            </div>
+                            <div class="col-xs-3" id="fifteen">
+                                <i class="devicon-postgresql-plain-wordmark"></i>
+                            </div>
+                            <div class="col-xs-3" id="sixteen">
+                                <i class="devicon-rails-plain-wordmark"></i>
+                            </div>
+                            <div class="col-xs-3" id="seventeen">
+                                <i class="devicon-react-original-wordmark" ></i>
+                            </div>
+                            <div class="col-xs-3" id="eighteen">
+                                <i class="devicon-ruby-plain-wordmark" ></i>
+                            </div>
+                            <div class="col-xs-3" id="nineteen">
+                                <i class="devicon-trello-plain-wordmark"></i>
+                            </div>
+                            <div class="col-xs-3" id="twenty">
+                                <i class="devicon-visualstudio-plain-wordmark"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             
             <div class="portfolio">
                 <header id="portfolio">
@@ -184,10 +175,9 @@
                 </header>
                 
                 <nav>
-                    <a class="porty" href="#homePage">Home</a> |
-                    <a class="porty" href="#about">About</a> |
-                    <a class="porty" href="#skills">Skills</a> | 
-                    <a class="porty" href="#portfolio">Portfolio</a>
+                    <a class="home-page" id="porty" href="#homePage">Home</a> |
+                    <a class="skills-page" id="porty" href="#skills">Skills</a> | 
+                    <a class="portfolio-page" id="porty" href="#portfolio">Portfolio</a>
                 </nav>
 
                 <div class="row">

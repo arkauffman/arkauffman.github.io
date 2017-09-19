@@ -5,7 +5,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'PT Serif', serif; 
+    font-family: 'Asap Condensed', sans-serif, 'PT Serif', serif; 
     background: url('https://i.imgur.com/c47Utou.jpg') no-repeat center center fixed;   
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -97,7 +97,7 @@ i {
 }
 
 .profile-picture {
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .portfolio {
@@ -127,39 +127,37 @@ nav {
 } 
 
 a {
-    font-family: 'PT Serif', serif; 
     text-decoration: none;
     color: white;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.porty {
+.porty, #porty {
     padding: 20px !important;
 }
 
 .current {
     padding: 0 !important;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .blur {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
     color: #fff;
     text-align: center;
     padding: 30px 20px;
-    margin: 20px !important;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.29);
 }
 
 .container {
-    border: 1px solid #eee9e9;
-    box-shadow: 0 0 3px rgba(0, 0, 0, .8);
     height: 100%;
 }
 
 p {
     text-align: center;
     color: white;
+    font-size: 18px;
 }
 
 .project {
@@ -219,7 +217,7 @@ svg {
 
 .about {
     text-align: left;
-    padding: 60px 15px 0 15px;;
+    padding: 50px 10px 0 10px;;
 }
 
 ul {
@@ -253,12 +251,15 @@ img.responsive:hover {
 }
 
 a:hover { 
-    color: white !important;
+    /* color: white !important; */
     border-bottom: 2px !important;
     text-decoration: none !important;
 }
 
-.col-xs-3, .porty, .current {
+.col-xs-3, .porty, .current, #one, #two, #three, #four, #five, #six, #seven,
+#eight, #nine, #ten, #eleven, #twelve, #thirteen,
+#fourteen, #fifteen, #sixteen, #seventeen, #eighteen,
+#nineteen, #twenty, #twentyone {
     padding: 40px;
     opacity: 0.65;
     transition: opacity 1s ease-in-out;
@@ -266,11 +267,254 @@ a:hover {
     -webkit-transition: opacity 1s ease-in-out;
 }
 
+.home-page, .skills-page, .portfolio-page, 
+#one, #two, #three, #four, #five, #six, #seven,
+#eight, #nine, #ten, #eleven, #twelve, #thirteen,
+#fourteen, #fifteen, #sixteen, #seventeen, #eighteen,
+#nineteen, #twenty, #twentyone {
+    padding: 40px;
+    opacity: 0.65;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+#one:hover {
+   opacity: 1.0;
+   transition: opacity .75s ease-in-out;
+   -moz-transition: opacity .75s ease-in-out;
+   -webkit-transition: opacity .75s ease-in-out;
+   color: #FF0000;
+   color: -webkit-linear-gradient(to left, white, #FF0000);
+   color: linear-gradient(to left, white, #FF0000); 
+}
+
+#two:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #FF5B5B;
+    color: -webkit-linear-gradient(to left, white, #FF5B5B);
+    color: linear-gradient(to left, white, #FF5B5B);
+}
+
+#three:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #EC9E9E;
+    color: -webkit-linear-gradient(to left, white, #EC9E9E);
+    color: linear-gradient(to left, white, #EC9E9E);
+}
+
+#four:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #FFAE00;
+    color: -webkit-linear-gradient(to left, white, #FFAE00);
+    color: linear-gradient(to left, white, #FFAE00);
+}
+
+#five:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #FAC32B;
+    color: -webkit-linear-gradient(to left, white, #FAC32B);
+    color: linear-gradient(to left, white, #FAC32B);
+}
+
+#six:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #FFC156;
+    color: -webkit-linear-gradient(to left, white, #FFC156);
+    color: linear-gradient(to left, white, #FFC156);
+}
+
+#seven:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #FFFF5E;
+    color: -webkit-linear-gradient(to left, white, #FFFF5E);
+    color: linear-gradient(to left, white, #FFFF5E);
+}
+
+#eight:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #ECFFA6;
+    color: -webkit-linear-gradient(to left, white, #ECFFA6);
+    color: linear-gradient(to left, white, #ECFFA6);
+}
+
+#nine:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #C7FF5E;
+    color: -webkit-linear-gradient(to left, white, #C7FF5E);
+    color: linear-gradient(to left, white, #C7FF5E);
+}
+
+#ten:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #5EFF86;
+    color: -webkit-linear-gradient(to left, white, #5EFF86);
+    color: linear-gradient(to left, white, #5EFF86);
+}
+
+#eleven:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #6EBB6E;
+    color: -webkit-linear-gradient(to left, white, #6EBB6E);
+    color: linear-gradient(to left, white, #6EBB6E);
+}
+
+#twelve:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #AAEBD5;
+    color: -webkit-linear-gradient(to left, white, #AAEBD5);
+    color: linear-gradient(to left, white, #AAEBD5);
+}
+
+#thirteen:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #6BE1FF;
+    color: -webkit-linear-gradient(to left, white, #6BE1FF);
+    color: linear-gradient(to left, white, #6BE1FF);
+}
+
+#fourteen:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #6BA6FF;
+    color: -webkit-linear-gradient(to left, white, #6BA6FF);
+    color: linear-gradient(to left, white, #6BA6FF);
+}
+
+#fifteen:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #5F89FA;
+    color: -webkit-linear-gradient(to left, white, #5F89FA);
+    color: linear-gradient(to left, white, #5F89FA);
+}
+
+#sixteen:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #B8B8F3;
+    color: -webkit-linear-gradient(to left, white, #B8B8F3);
+    color: linear-gradient(to left, white, #B8B8F3);
+}
+
+#seventeen:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #B090EB;
+    color: -webkit-linear-gradient(to left, white, #B090EB);
+    color: linear-gradient(to left, white, #B090EB);
+}
+
+#eighteen:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #E090EB;
+    color: -webkit-linear-gradient(to left, white, #E090EB);
+    color: linear-gradient(to left, white, #E090EB);
+}
+
+#nineteen:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #EB90BE;
+    color: -webkit-linear-gradient(to left, white, #EB90BE);
+    color: linear-gradient(to left, white, #EB90BE);
+}
+
+#twenty:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #FCB0FC;
+    color: -webkit-linear-gradient(to left, white, #FCB0FC);
+    color: linear-gradient(to left, white, #FCB0FC);
+}
+
+.home-page:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #bebeff;
+    color: -webkit-linear-gradient(to left, white, #bebeff);
+    color: linear-gradient(to left, white, #bebeff);
+}
+
+.skills-page:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #ffe1be;
+    color: -webkit-linear-gradient(to left, white, #ffe1be);
+    color: linear-gradient(to left, white, #ffe1be);
+}
+
+.portfolio-page:hover {
+    opacity: 1.0;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+    color: #ffbeff;
+    color: -webkit-linear-gradient(to left, white, #ffbeff);
+    color: linear-gradient(to left, white, #ffbeff);
+}
+
+
 .col-xs-3:hover, .porty:hover, .current:hover {
     opacity: 1.0;
-    transition: opacity .55s ease-in-out;
-    -moz-transition: opacity .55s ease-in-out;
-    -webkit-transition: opacity .55s ease-in-out;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
 }
 
 footer {

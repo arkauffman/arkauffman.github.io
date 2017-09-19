@@ -1,98 +1,79 @@
-$(document).ready(function() {
-    var aboveHeight = $('header').outerHeight();
-    $(window).scroll(function(){
-        if ($(window).scrollTop() > aboveHeight){
-            $('nav').addClass('fixed').next()
-        } else {
-            $('nav').removeClass('fixed').next()
-        }
-    });
+$(document).ready(function(){
+	
+	// Scrollspy initiation
+	$('body').scrollspy({ 
+		target: '#scroll-spy',
+		offset: 70
+	});
+
+	// On render, adjust body padding to ensure last Scroll target can reach top of screen
+	var height = $('#portfolio').innerHeight();
+	var windowHeight = $(window).height();
+	var navHeight = $('nav').innerHeight();
+	var siblingHeight = $('#portfolio').nextAll().innerHeight();
+
+
+	if(height < windowHeight){
+		$('body').css("padding-bottom", windowHeight-navHeight-height-siblingHeight + "px");
+	}
+
+	// On window resize, adjust body padding to ensure last Scroll target can reach top of screen
+	$(window).resize(function(event){
+		var height = $('#portfolio').innerHeight();
+		var windowHeight = $(window).height();
+		var navHeight = $('nav').innerHeight();
+		var siblingHeight = $('#portfolio').nextAll().innerHeight();
+		
+		
+		if(height < windowHeight){
+			$('body').css("padding-bottom", windowHeight-navHeight-height-siblingHeight + "px");
+		}
+	});
+	
+	$('nav.a, .initials').click(function(event){
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+			// Prevent default anchor click behavior
+			event.preventDefault();
+
+			// Store hash (#)
+			var hash = this.hash;
+			
+			// Ensure no section has relevant class
+			$('section').removeClass("focus");
+
+			// Add class to target
+			$(hash).addClass("focus");
+
+			// Remove thy class after timeout
+			setTimeout(function(){
+				$(hash).removeClass("focus");
+			}, 2000);			
+			
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area (the speed of the animation)
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top - 69
+			}, 600, function(){
+				
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;				
+			});
+					
+			// Collapse Navbar for mobile view
+			$(".navbar-collapse").collapse('hide');			
+		}
+
+	});
+	$(window).scroll(function(){
+		var scrollPos = $('body').scrollTop();
+		if(scrollPos > 0){
+			$('.navbar').addClass('show-color');
+			$('.scrollTop').addClass('show-button');
+		} else{
+			$('.navbar').removeClass('show-color');
+			$('.scrollTop').removeClass('show-button');
+		}
+		
+	});
 });
-
-$('a[href*="#"]')
-    .not('[href="#"]')
-    .not('[href="#0"]')
-    .click(function(event) {
-    if (
-        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-        &&
-        location.hostname == this.hostname
-    ) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        if (target.length) {
-            event.apreventDefault();
-            $('html, body').animate({
-                scrollTop: target.offset().top
-            }, 3000, function() {
-                var $target = $(target);
-                $target.focus();
-            });
-        }
-    }
-});
-
-
-
-// Smooth scrolling using jQuery easing
-// $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-//     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-//       var target = $(this.hash);
-//       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-//       if (target.length) {
-//         $('html, body').animate({
-//           scrollTop: (target.offset().top - 48)
-//         }, 1000, "easeInOutExpo");
-//         return false;
-//       }
-//     }
-//   });
-  
-    // Closes responsive menu when a scroll trigger link is clicked
-//   $('.js-scroll-trigger').click(function() {
-//     $('.navbar-collapse').collapse('hide');
-//   });
-//   // Activate scrollspy to add active class to navbar items on scroll
-//   $('body').scrollspy({
-//     target: '#mainNav',
-//     offset: 48
-//   });
-//   // Collapse the navbar when page is scrolled
-//   $(window).scroll(function() {
-//     if ($("#mainNav").offset().top > 100) {
-//       $("#mainNav").addClass("navbar-shrink");
-//     } else {
-//       $("#mainNav").removeClass("navbar-shrink");
-//     }
-//   });
-//   // Scroll reveal calls
-//   window.sr = ScrollReveal();
-//   sr.reveal('.sr-icons', {
-//     duration: 600,
-//     scale: 0.3,
-//     distance: '0px'
-//   }, 200);
-//   sr.reveal('.sr-button', {
-//     duration: 1000,
-//     delay: 200
-//   });
-//   sr.reveal('.sr-contact', {
-//     duration: 600,
-//     scale: 0.3,
-//     distance: '0px'
-//   }, 300);
-//   // Magnific popup calls
-//   $('.popup-gallery').magnificPopup({
-//     delegate: 'a',
-//     type: 'image',
-//     tLoading: 'Loading image #%curr%...',
-//     mainClass: 'mfp-img-mobile',
-//     gallery: {
-//       enabled: true,
-//       navigateByImgClick: true,
-//       preload: [0, 1]
-//     },
-//     image: {
-//       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-//     }
-//   });
