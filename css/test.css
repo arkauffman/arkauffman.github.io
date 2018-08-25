@@ -1,0 +1,66 @@
+body {
+    background-color: #faf0e6;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    background-color: #c1cdc1;
+    padding: 30px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    -webkit-text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    -moz-text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); 
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+nav:hover {
+    padding: 50px;
+}
+
+a {
+    color: #faf0e6; 
+    font-size: 20px;
+    text-decoration: none; 
+}
+
+a:hover {
+    border-top: 3px solid #faf0e6; 
+    text-decoration: none;
+    color: #838b83;
+    font-size: 22px;
+}
+
+h1 {
+    text-align: left;
+    color: #838b83;
+    font-size: 90px;
+    padding-left: 25px;
+    position: fixed;
+    padding-top: 120px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    -webkit-text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    -moz-text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.profile-picture {
+    float: right;
+    padding: 125px 80px 50px 0px;
+}
+
+#me {
+    width: 375px;
+    height: 350px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background: url(URL) no-repeat;
+    border: 2px solid #faf0e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.hello {
+    padding-top: 3000px;
+}

@@ -1,12 +1,115 @@
 html {
     position: relative;
-    min-height: 100%;
+    min-height: 50%;
 } 
 
+nav {
+    padding: 20px 0px;
+    text-align: center;
+    position: fixed;
+} 
+
+.nav-border {
+    height: 100px;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.headerName {
+    font-size: 55px;
+    padding-top: 50px;
+    font-weight: 900;
+}
+
+.body1 {
+    background-image: url('https://i.imgur.com/c47Utou.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 60px;   
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-size: .2em 100%;
+    font: 50px;
+    letter-spacing: 0.15em;
+}
+
+.aboutMe, .skills, .projects {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-size: .2em 100%;
+    font: 40px;
+    letter-spacing: 0.15em;
+}
+
+.aboutInfo {
+    background-color: rgb(253, 249, 249);
+}
+
+.aboutText {
+    margin: 20px 150px 20px 150px;
+}
+
+.skills, .projects {
+    padding-top: 50px;
+}
+
+
+.icons {
+    padding: 50px !important;
+    width: 20% !important;
+    align-content: center !important;
+}
+
+
+
+
+
+
 body {
+    /* margin: 0;
+    font-family: 'Asap Condensed', sans-serif, 'PT Serif', serif; 
+    background: url('https://i.imgur.com/c47Utou.jpg') no-repeat center center;   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 60px;
+    line-height: 1.41;
+    padding-bottom: 15px !important; */
+}
+
+.body1 {
+    background-image: url('https://i.imgur.com/c47Utou.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 60px;   
+}
+
+.body2 {
+    padding-top: 50px;
+}
+
+/* .body1 {
     margin: 0;
     font-family: 'Asap Condensed', sans-serif, 'PT Serif', serif; 
-    background: url('https://i.imgur.com/c47Utou.jpg') no-repeat center center fixed;   
+    background: url('https://i.imgur.com/c47Utou.jpg') no-repeat center center;   
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,7 +117,8 @@ body {
     margin-bottom: 60px;
     line-height: 1.41;
     padding-bottom: 15px !important;
-}
+    min-height: 100%
+} */
 
 .text {
     fill: none;
@@ -85,44 +189,31 @@ header {
     border-bottom: 2px solid white;
 }
 
-.home, .skills, .about {
+/* .home, .skills, .about {
     padding-bottom: 100px !important;
-}
+} */
 
 i {
     font-size: 90px;
 }
 
 .tech-skills {
-    padding-top: 50px !important;
+    padding: 50px;
 }
 
 .profile-picture {
     padding-top: 60px;
+    padding-bottom: 50px;
 }
 
 .portfolio {
     padding-top: 100px;
 }
 
-h1 {
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    background-size: .2em 100%;
-    font: 50px;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-}
-
-nav {
-    padding: 20px 0px;
-    text-align: center;
-} 
 
 a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
     font-weight: 500;
     font-size: 20px;
 }
@@ -150,7 +241,7 @@ a {
 
 p {
     text-align: center;
-    color: white;
+    /* color: white; */
     font-size: 18px;
 }
 
@@ -274,8 +365,7 @@ a:hover {
 }
 
 #one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover,
-#eight:hover, #nine:hover, #ten:hover, #eleven:hover, #twelve:hover, #thirteen:hover,
-#fourteen:hover, #fifteen:hover, #sixteen:hover, #seventeen:hover, #eighteen:hover,
+#eight:hover, #nine:hover, #ten:hover, #eleven:hover, #twelve:hover,
 #nineteen:hover, #twenty:hover, #twentyone:hover, .col-xs-3:hover,
 .porty:hover, .current:hover, .home-page:hover, .skills-page:hover,
 .portfolio-page:hover {
@@ -292,114 +382,66 @@ a:hover {
 }
 
 #two:hover {
-    color: #FF5B5B;
-    color: -webkit-linear-gradient(to left, white, #FF5B5B);
-    color: linear-gradient(to left, white, #FF5B5B);
-}
-
-#three:hover {
-    color: #EC9E9E;
-    color: -webkit-linear-gradient(to left, white, #EC9E9E);
-    color: linear-gradient(to left, white, #EC9E9E);
-}
-
-#four:hover {
     color: #FFAE00;
     color: -webkit-linear-gradient(to left, white, #FFAE00);
     color: linear-gradient(to left, white, #FFAE00);
 }
 
-#five:hover {
-    color: #FAC32B;
-    color: -webkit-linear-gradient(to left, white, #FAC32B);
-    color: linear-gradient(to left, white, #FAC32B);
-}
-
-#six:hover {
-    color: #FFC156;
-    color: -webkit-linear-gradient(to left, white, #FFC156);
-    color: linear-gradient(to left, white, #FFC156);
-}
-
-#seven:hover {
+#three:hover {
     color: #FFFF5E;
     color: -webkit-linear-gradient(to left, white, #FFFF5E);
     color: linear-gradient(to left, white, #FFFF5E);
 }
 
-#eight:hover {
-    color: #ECFFA6;
-    color: -webkit-linear-gradient(to left, white, #ECFFA6);
-    color: linear-gradient(to left, white, #ECFFA6);
-}
-
-#nine:hover {
+#four:hover {
     color: #C7FF5E;
     color: -webkit-linear-gradient(to left, white, #C7FF5E);
     color: linear-gradient(to left, white, #C7FF5E);
 }
 
-#ten:hover {
+#five:hover {
     color: #5EFF86;
     color: -webkit-linear-gradient(to left, white, #5EFF86);
     color: linear-gradient(to left, white, #5EFF86);
 }
 
-#eleven:hover {
+#six:hover {
     color: #6EBB6E;
     color: -webkit-linear-gradient(to left, white, #6EBB6E);
     color: linear-gradient(to left, white, #6EBB6E);
 }
 
-#twelve:hover {
-    color: #AAEBD5;
-    color: -webkit-linear-gradient(to left, white, #AAEBD5);
-    color: linear-gradient(to left, white, #AAEBD5);
-}
-
-#thirteen:hover {
+#seven:hover {
     color: #6BE1FF;
     color: -webkit-linear-gradient(to left, white, #6BE1FF);
     color: linear-gradient(to left, white, #6BE1FF);
 }
 
-#fourteen:hover {
+#eight:hover {
     color: #6BA6FF;
     color: -webkit-linear-gradient(to left, white, #6BA6FF);
     color: linear-gradient(to left, white, #6BA6FF);
 }
 
-#fifteen:hover {
-    color: #5F89FA;
-    color: -webkit-linear-gradient(to left, white, #5F89FA);
-    color: linear-gradient(to left, white, #5F89FA);
-}
-
-#sixteen:hover {
+#nine:hover {
     color: #B8B8F3;
     color: -webkit-linear-gradient(to left, white, #B8B8F3);
     color: linear-gradient(to left, white, #B8B8F3);
 }
 
-#seventeen:hover {
-    color: #B090EB;
-    color: -webkit-linear-gradient(to left, white, #B090EB);
-    color: linear-gradient(to left, white, #B090EB);
-}
-
-#eighteen:hover {
+#ten:hover {
     color: #E090EB;
     color: -webkit-linear-gradient(to left, white, #E090EB);
     color: linear-gradient(to left, white, #E090EB);
 }
 
-#nineteen:hover {
+#eleven:hover {
     color: #EB90BE;
     color: -webkit-linear-gradient(to left, white, #EB90BE);
     color: linear-gradient(to left, white, #EB90BE);
 }
 
-#twenty:hover {
+#twelve:hover {
     color: #FCB0FC;
     color: -webkit-linear-gradient(to left, white, #FCB0FC);
     color: linear-gradient(to left, white, #FCB0FC);
