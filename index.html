@@ -2,440 +2,148 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel = "icon" href = "https://arkauffman.github.io/arkauffman.github.io/images/heart.png">
     <title>Alexandra's Personal Website</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="./js/main.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <!-- <link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet"> -->
-    <link type = "text/css" rel="stylesheet" href="./css/style.css">    
-    <!-- <link type="text/css" rel="stylesheet" href="https://arkauffman.github.io/arkauffman.github.io/css/style.css">    -->
+    <!-- <link type = "text/css" rel="stylesheet" href="./css/test.css">     -->
+    <link type="text/css" rel="stylesheet" href="https://arkauffman.github.io/arkauffman.github.io/css/style.css">   
     <script src="https://use.fontawesome.com/36bb339d58.js"></script>
 </head>
 
 <body>
+    <header id="header">
+        <div class="header-wrapper">
+            <div class="site-title">
+                <h1 id="name-title">
+                    AK
+                </h1>
+            </div>
+            <div class="header-inner">
+                <div class="main-wrapper">
+                    <nav>
+                        <a href="#projects">Projects</a>
+                        <a href="./Resume/Resume.pdf" target="_blank" id="resume">Resume</a>
+                    </nav> 
+                </div>
+            </div>
 
-    <nav class="nav-border">
-        <a class="home-page" id="porty" href="#homePage">Home</a> |
-        <a class="home-page" id="porty" href="#aboutPage">About</a> |
-        <a class="skills-page" id="porty" href="#skills">Skills</a> | 
-        <a class="portfolio-page" id="porty" href="#portfolio">Portfolio</a>
-    </nav>
+            <!-- <div class="nav-mobile-toggle">
+                <div class="top-bar"></div>
+                <div class="middle-bar"></div>
+                <div class="bottom-bar"></div>
+            </div> -->
+        </div>
+    </header>
 
-    
-    
-    <div class="body1" id="homePage">
-        <h1 class="headerName">Alexandra R. Kauffman</h1>
-        <h2>Web Developer</h2>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h3 id="name">ALEXANDRA KAUFFMAN</h3>
+            <h1 id="title">Front-end Engineer</h1>
+            <button class="btn"><a href="#projects">View My Projects</a></button>
+        </div>
     </div>
 
-    <div class="body2" id="aboutPage">
-        <div class="aboutInfo">
-            <h1 class="aboutMe">About Me</h1>
-            <p class="profile-picture">
-                <img id="me" src="http://i.imgur.com/OxmuHxZ.jpg">
-            </p>
+    <div class="project-wrapper" id="projects">
+        <div id="project-content">
+            <h1 style="text-align: center; letter-spacing: 2px; padding-top: 30px;">I am an engineer who works in agile environments, generating clean, efficient, and reusable code.</h1>
 
-            <div>
-                <p class="aboutText"> 
-                    "Those who imagine anything can create the impossible."
-                    <br>
-                    Alan Turing
-                    <br><br>
-                    My name is Alexandra Kauffman and I am a Web Developer in Los Angeles, 
-                    California. I enjoy problem-solving, debugging, and building cutting-edge,
-                    user-friendly applications. I am hard-working and actively seek to learn
-                    new technologies and keep up with the latest trends in development.
-                    <br><br>
-                    I am currently working on developing a MERN stack website for a crafting
-                    company I recently started with <a target="_blank" href="http://www.valeriaoshiro.com">Valeria Oshiro</a>. 
-                    <br><br>
-                </p>
-            </div>
-        </div>
-
-        <div class="row" id="skills">
-            <h1 class="skills">Technical Skills</h1>   
-            <div class="tech-skills">
-                <div class="col-xs-3 icons" id="one">
-                    <i class="devicon-javascript-plain" ></i>
+            <div class="row">
+                <div class="column">
+                    <div class="image-wrapper">
+                        <a href="https://www.oriannevarshajewelry.com" target="_blank">
+                            <img src="images/diamond-ring-ashraf.svg" class="project-images">
+                        </a>
+                    </div>
+                    <div class="summary-wrapper">
+                        <h1>Orianne Varsha Jewlery</h1>
+                        <p>Target your site’s viewers and market to what they look at with the extensive analytics provided by Shopify. Jewelry website powered by Shopify.</p>
+                    </div>
                 </div>
-                <div class="col-xs-3 icons" id="two">
-                    <i class="devicon-react-original-wordmark" ></i>
-                </div>
-                <div class="col-xs-3 icons" id="three">
-                    <i class="devicon-html5-plain-wordmark" ></i>
-                </div>
-                <div class="col-xs-3 icons" id="four">
-                    <i class="devicon-css3-plain-wordmark" ></i>
-                </div>
-                <div class="col-xs-3 icons" id="five">
-                    <i class="devicon-jquery-plain-wordmark" ></i>
-                </div>
-                <div class="col-xs-3 icons" id="six">
-                    <i class="devicon-java-plain-wordmark" ></i>
-                </div>
-                <div class="col-xs-3 icons" id="seven">
-                    <i class="devicon-nodejs-plain-wordmark" ></i>
-                </div>
-                <div class="col-xs-3 icons" id="eight">
-                    <i class="devicon-express-original-wordmark"></i>
-                </div>
-                <div class="col-xs-3 icons" id="nine">
-                    <i class="devicon-mysql-plain-wordmark" ></i>
-                </div>
-                <div class="col-xs-3 icons" id="ten">
-                    <i class="devicon-mongodb-plain-wordmark" ></i>
-                </div>
-                <div class="col-xs-3 icons" id="eleven">
-                    <i class="devicon-git-plain-wordmark"></i>
-                </div>
-                <div class="col-xs-3 icons" id="twelve">
-                    <i class="devicon-github-plain-wordmark"></i>
+                <div class="column">
+                    <div class="image-wrapper">
+                        <a href="http://www.alexandrakauffman.com/war-game/" target="_blank">
+                            <img src="images/Card.svg" class="project-images">
+                        </a>        
+                    </div>
+                    <div class="summary-wrapper">
+                        <h1>War</h1>
+                        <p>War has been declared! In this two-player card game, War, friends can face the ultimate battle and see who wins the entire deck of cards. Keep track of your scores and play the ultimate duel.</p>
+                        <br>
+                    </div>
                 </div>
             </div>
-        </div>
-
-            <div class="projectInfo" id="portfolio">
-                <h1 class="projects">Projects</h1> 
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>
-                            <br><br><br> 
-                            <a href="http://arkauffman.github.io/war-game/" target="_blank"><img class="responsive" src="https://i.imgur.com/8LKQY2w.png"></a>
-                            <br><br><br>
-                            <a href="http://github.com/arkauffman/war-game" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                            <p class="project"> War has been declared! In this two-player card game, War, friends can face the 
-                                ultimate battle and see who wins the entire deck of cards. Keep track of your scores and
-                                play the ultimate duel.
-                            </p>
-                        </p>
+            <div class="row">
+                <div class="column">
+                    <div class="image-wrapper">
+                        <a href="http://listmeup.herokuapp.com/" target="_blank">
+                            <img src="https://www.iconspng.com/clipart/liste-list/liste-list.svg" class="project-images">
+                        </a>
                     </div>
-                    <div class="col-md-6">
-                        <p> 
-                            <br><br><br>
-                            <a href="http://trendsy.herokuapp.com" target="_blank"><img class="responsive" src="https://i.imgur.com/YawcZXx.png"></a>
-                            <br><br><br>
-                            <a href="http://github.com/arkauffman/trendsy" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                            <p class="project">
-                                Create an account, sign in to your existing account, browse through items
-                                other users selling, sort through items by category, 
-                                upload/edit your own items, check out with your current cart and update
-                                the quantity of an item in your cart. Enable the ultimate shopping experience
-                                with Trendsy!
-                            </p>
-                        </p>
+                    <div class="summary-wrapper">
+                        <h1>List Me Up</h1>
+                        <p>Who remembers to check to-do lists? With List Me Up, you can get daily SMS reminders with information that's most important to you. As a user, you decide when you'd like to get notified. You will also receive daily forcasts at your location so you'll never dress for the wrong weather again!</p>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>
-                            <br><br><br> 
-                            <a href="http://listmeup.herokuapp.com" target="_blank"><img class="responsive" src="https://i.imgur.com/ceTPf6b.png"></a>
-                            <br><br><br>
-                            <a href="http://github.com/list-me-up/ListMeUp" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                            <p class="project">
-                                Who remembers to check todo lists? With List Me Up, you can get daily SMS 
-                                reminders with information that's most important to you. As a user, you decide 
-                                when you'd like to get notified. You will also receive daily forcasts at your 
-                                location so you'll never dress for the wrong weather again!        
-                            </p>
-                        </p>
+                <div class="column">
+                    <div class="image-wrapper">
+                        <a href="http://potluckticality.herokuapp.com/" target="_blank">
+                            <img src="images/Taco.png" class="project-images">
+                        </a>
                     </div>
-                    <div class="col-md-6">
-                        <p> 
-                            <br><br><br>
-                            <a href="http://munchin.herokuapp.com" target="_blank"><img class="responsive" src="https://i.imgur.com/D6iuZyC.png"></a>
-                            <br><br><br>
-                            <a href="http://github.com/arkauffman/munch" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                            <p class="project">
-                                Don't know what to cook this week?! With Munchin', you can search through hundreds
-                                of thousands of recipes and favorite/unfavorite those you wish to add to your grocery list. 
-                                That way when you go to the grocery store, you'll know exactly what to buy!
-                            </p>
-                        </p>
+                    <div class="summary-wrapper">
+                        <h1>Potluckticality</h1>
+                        <p>Forget the technicalities with Potluckticality! Invite your friends to all of your events by providing their emails and decide who is bringing what dish to the party. See how many people are attending and have an organized list of what events you have created and are currently going to!</p>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>
-                            <br><br><br> 
-                            <a href="http://potluckticality.herokuapp.com" target="_blank"><img class="responsive" src="https://i.imgur.com/Me6Dbei.jpg"></a>
-                            <br><br><br>
-                            <a href="http://github.com/Potluckticality/Potluckticality" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                            <p class="project">
-                                Forget the technicalities with Potluckticality! Invite your friends to all of your events
-                                by providing their emails and decide who is bringing what dish to the party. See how many
-                                people are attending and have an organized list of what events you have created and are 
-                                currently going to!
-                            </p>
-                        </p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="image-wrapper">
+                        <a href="http://munchin.herokuapp.com/" target="_blank">
+                            <img src="images/Fridge.png" class="project-images">
+                        </a>
+                    </div>
+                    <div class="summary-wrapper">
+                        <h1>Munchin'</h1>
+                        <p>Don't know what to cook this week? With Munchin', you can search through hundreds of thousands of recipes and favorite/unfavorite those you wish to add to your grocery list. That way when you go to the grocery store, you'll know exactly what to buy!</p>        
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="image-wrapper">
+                        <a href="mailto:arkauffma@gmail.com" target="_blank">
+                            <img src="images/More.png" class="project-images">
+                        </a>
+                    </div>
+                    <div class="summary-wrapper">
+                        <h1>More</h1>
+                        <p>Contact me if you'd like to learn about what I'm currently working on!</p>
+                        <br>
+                        <br>
+                        <br>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</body>
-
-
-
-<!-- <body id="homePage" data-spy="scroll" data-target="#scroll-spy">
-    <br>
-    <div class="container"> -->
-        
-        
-        
-        
-        
-<!--         
-        <div class="blur">
-            <div class="home">
-                <div class="box-with-text">
-                    <svg viewBox="0 5 2200 250" align="center" height="100%" width="100%">
-                        <symbol id="s-text">
-                            <text text-anchor="middle" x="50%" y="60%">
-                                Alexandra R. Kauffman
-                            </text>
-                        </symbol>  
-                        <use xlink:href="#s-text" class="text"
-                            ></use>
-                        <use xlink:href="#s-text" class="text"
-                            ></use>
-                        <use xlink:href="#s-text" class="text"
-                            ></use>
-                        <use xlink:href="#s-text" class="text"
-                            ></use>
-                        <use xlink:href="#s-text" class="text"
-                            ></use>
-                    </svg>
-                    <div class="location">
-                        Los Angeles, CA - Web Developer <br><br>
-                    </div>
-                </div>
-
-                <nav>
-                    <a class="home-page" id="porty" href="#homePage">Home</a> |
-                    <a class="skills-page" id="porty" href="#skills">Skills</a> | 
-                    <a class="portfolio-page" id="porty" href="#portfolio">Portfolio</a>
-                </nav>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="profile-picture">
-                            <img id="me" src="http://i.imgur.com/OxmuHxZ.jpg">
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="about"> 
-
-                            "Those who imagine anything can create the impossible."
-                            <br>
-                            Alan Turing
-                            <br><br>
-                            My name is Alexandra Kauffman and I am currently working on a project with
-                            <a href="johnmichaelsolis.com" target="_blank" class="current">John Solis</a> to amp up <a href="http://impeccablelooks.com/" target="_blank" class="current">Impeccable Look's</a>
-                            website. I recently graduated from General Assembly's Web Development Immersive Program where 
-                            I gained an immense amount of skill and knowledge through three months of intensive learning. 
-                            This past May, I graduated from the University of Wisconsin-Madison with a bachelor's degree 
-                            in Communication Arts and a certificate in Computer Science. 
-                            <br><br>
-                            I created this site in order to have one common place in which I can share
-                            my projects, have a place to continously practice programming by updating 
-                            my site based on the forever progressing programming world, and to 
-                            share some insight on what life is like as a web developer.
-                            <br><br>
-                            Thank you for taking this journey with me!
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skills">
-                <header id="skills">
-                    <h1>Skills</h1>
-                </header>
-
-                <nav>
-                    <a class="home-page" id="porty" href="#homePage">Home</a> |
-                    <a class="skills-page" id="porty" href="#skills">Skills</a> | 
-                    <a class="portfolio-page" id="porty" href="#portfolio">Portfolio</a>
-                </nav>
-
-                <div class="row">
-                        <div class="tech-skills">
-                            <div class="col-xs-3" id="one">
-                                <i class="devicon-amazonwebservices-plain-wordmark"></i>
-                            </div>
-                            <div class="col-xs-3" id="two">
-                                <i class="devicon-bootstrap-plain-wordmark" ></i>
-                            </div>
-                            <div class="col-xs-3" id="three">
-                                <i class="devicon-css3-plain-wordmark" ></i>
-                            </div>
-                            <div class="col-xs-3" id="four">
-                                <i class="devicon-express-original-wordmark"></i>
-                            </div>
-                            <div class="col-xs-3" id="five">
-                                <i class="devicon-git-plain-wordmark"></i>
-                            </div>
-                            <div class="col-xs-3" id="six">
-                                <i class="devicon-github-plain-wordmark"></i>
-                            </div>
-                            <div class="col-xs-3" id="seven">
-                                <i class="devicon-heroku-line-wordmark" ></i>
-                            </div>
-                            <div class="col-xs-3" id="eight">
-                                <i class="devicon-html5-plain-wordmark" ></i>
-                            </div>
-                            <div class="col-xs-3" id="nine">
-                                <i class="devicon-intellij-plain-wordmark"></i>
-                            </div>
-                            <div class="col-xs-3" id="ten">
-                                <i class="devicon-java-plain-wordmark" ></i>
-                            </div>
-                            <div class="col-xs-3" id="eleven">
-                                <i class="devicon-javascript-plain" ></i>
-                            </div>
-                            <div class="col-xs-3" id="twelve">
-                                <i class="devicon-jquery-plain-wordmark" ></i>
-                            </div>
-                            <div class="col-xs-3" id="thirteen">
-                                <i class="devicon-mongodb-plain-wordmark" ></i>
-                            </div>
-                            <div class="col-xs-3" id="fourteen">
-                                <i class="devicon-nodejs-plain-wordmark" ></i>
-                            </div>
-                            <div class="col-xs-3" id="fifteen">
-                                <i class="devicon-postgresql-plain-wordmark"></i>
-                            </div>
-                            <div class="col-xs-3" id="sixteen">
-                                <i class="devicon-rails-plain-wordmark"></i>
-                            </div>
-                            <div class="col-xs-3" id="seventeen">
-                                <i class="devicon-react-original-wordmark" ></i>
-                            </div>
-                            <div class="col-xs-3" id="eighteen">
-                                <i class="devicon-ruby-plain-wordmark" ></i>
-                            </div>
-                            <div class="col-xs-3" id="nineteen">
-                                <i class="devicon-trello-plain-wordmark"></i>
-                            </div>
-                            <div class="col-xs-3" id="twenty">
-                                <i class="devicon-visualstudio-plain-wordmark"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-            <div class="portfolio">
-                <header id="portfolio">
-                    <h1>Portfolio</h1>
-                </header>
-                
-                <nav>
-                    <a class="home-page" id="porty" href="#homePage">Home</a> |
-                    <a class="skills-page" id="porty" href="#skills">Skills</a> | 
-                    <a class="portfolio-page" id="porty" href="#portfolio">Portfolio</a>
-                </nav>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>
-                            <br><br><br> 
-                            <a href="http://arkauffman.github.io/war-game/" target="_blank"><img class="responsive" src="https://i.imgur.com/8LKQY2w.png"></a>
-                            <br><br><br>
-                            <a href="http://github.com/arkauffman/war-game" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                            <p class="project"> War has been declared! In this two-player card game, War, friends can face the 
-                                ultimate battle and see who wins the entire deck of cards. Keep track of your scores and
-                                play the ultimate duel.
-                            </p>
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <p> 
-                            <br><br><br>
-                            <a href="http://trendsy.herokuapp.com" target="_blank"><img class="responsive" src="https://i.imgur.com/YawcZXx.png"></a>
-                            <br><br><br>
-                            <a href="http://github.com/arkauffman/trendsy" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                            <p class="project">
-                                Create an account, sign in to your existing account, browse through items
-                                other users selling, sort through items by category, 
-                                upload/edit your own items, check out with your current cart and update
-                                the quantity of an item in your cart. Enable the ultimate shopping experience
-                                with Trendsy!
-                            </p>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>
-                            <br><br><br> 
-                            <a href="http://listmeup.herokuapp.com" target="_blank"><img class="responsive" src="https://i.imgur.com/ceTPf6b.png"></a>
-                            <br><br><br>
-                            <a href="http://github.com/list-me-up/ListMeUp" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                            <p class="project">
-                                Who remembers to check todo lists? With List Me Up, you can get daily SMS 
-                                reminders with information that's most important to you. As a user, you decide 
-                                when you'd like to get notified. You will also receive daily forcasts at your 
-                                location so you'll never dress for the wrong weather again!        
-                            </p>
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <p> 
-                            <br><br><br>
-                            <a href="http://munchin.herokuapp.com" target="_blank"><img class="responsive" src="https://i.imgur.com/D6iuZyC.png"></a>
-                            <br><br><br>
-                            <a href="http://github.com/arkauffman/munch" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                            <p class="project">
-                                Don't know what to cook this week?! With Munchin', you can search through hundreds
-                                of thousands of recipes and favorite/unfavorite those you wish to add to your grocery list. 
-                                That way when you go to the grocery store, you'll know exactly what to buy!
-                            </p>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>
-                            <br><br><br> 
-                            <a href="http://potluckticality.herokuapp.com" target="_blank"><img class="responsive" src="https://i.imgur.com/Me6Dbei.jpg"></a>
-                            <br><br><br>
-                            <a href="http://github.com/Potluckticality/Potluckticality" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                            <p class="project">
-                                Forget the technicalities with Potluckticality! Invite your friends to all of your events
-                                by providing their emails and decide who is bringing what dish to the party. See how many
-                                people are attending and have an organized list of what events you have created and are 
-                                currently going to!
-                            </p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-
-
-    <!-- </div>
 
     <footer class="navbar navbar-fixed-bottom" id="footer">
-        <p class="initials">ARK &nbsp; ©</p>
+        <div id="copyright">
+            <p class="initials">ARK &nbsp; ©</p>
+        </div>
+        <div id="footer-wrapper">
             <ul> 
-                <li> <a href="./Resume/AKauffman_Resume.pdf" target="_blank" download><i class="fa fa-download" aria-hidden="true"></i></a></li>
-                <li> <a href= "mailto:arkauffma@gmail.com"> <i class="fa fa-google" aria-hidden="true"></i> </a> </li>
-                <li> <a href="http://www.linkedin.com/in/alexandrakauffman" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li> <a href="http://github.com/arkauffman" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li class="icons"><a href= "mailto:arkauffma@gmail.com"> <i class="fa fa-google" aria-hidden="true"></i></a></li>
+                <li class="icons"><a href="http://www.linkedin.com/in/alexandrakauffman" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li class="icons"><a href="http://github.com/arkauffman" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
             </ul> 
+        </div>
     </footer> 
-</body> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
 </html>
