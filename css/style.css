@@ -4,6 +4,7 @@ body, html {
 
 body {
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
 }
 
 #hamburger-menu {
@@ -190,7 +191,6 @@ a:visited {
 .project-wrapper {
     display: block;
     background-color: white;
-    padding-bottom: 150px;
 }
 
 #project-content {
@@ -218,13 +218,25 @@ a:visited {
 }
   
 .column {
-    height: 250px;
+    height: 500px;
     flex: 50%;
 }
 
 .column-skills {
     height: 150px;
     flex: 50%;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.column-skills h2 {
+    padding-left: 40px;
+    font-weight: 900;
+}
+
+#project-title {
+    text-align: center; 
+    color: #924c44;
 }
 
 #skills-title {
@@ -301,6 +313,17 @@ a.project-links:hover {
     display: none;
 }
 
+.skill-list {
+    display: grid;
+}
+
+h2.about {
+    padding: 0 180px 65px 180px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 28px;
+}
+
 ul, li {
     list-style-type: none;
     display: inline;
@@ -308,6 +331,28 @@ ul, li {
 
 li a:hover {
     color: white !important;
+}
+
+#myBtn {
+    display: none;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #232824; /* Set a background color */
+    color: #fff; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-size: 25px;
+}
+  
+#myBtn:hover {
+    background-color: #fff;
+    color: #232824;
 }
 
 footer {
@@ -457,12 +502,74 @@ footer {
 
 
 @media screen and (max-width: 490px) {
+    .skills-wrapper {
+        padding-bottom: 30px;
+    }
+    
     .column {
         margin: 100px 0 0 0;
+        height: 600px;
     }
 
     #project-content  h1{
         font-size: 20px;
+    }
+
+    .row {
+        margin-top: -60px;
+        margin-bottom: 0;
+    }
+
+    .column {
+        margin: 100px 0px 0 -30px !important;
+    }
+
+    h2.about {
+        font-size: 18px;
+        padding: 0 50px 40px 50px !important;
+    }
+
+    .column-skills h2 {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    .skill-list {
+        font-size: 14px;
+    }
+
+    #skills-title {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    #ov, #more {
+        height: 500px;
+    }
+
+    #lmu, #munch {
+        height: 550px;
+    }
+
+    #myBtn {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 450) {
+    .column {
+        padding: 100px 0px 0 -25px !important;
     }
 }
 
@@ -474,9 +581,4 @@ footer {
     #title {
         font-size: 45px;
     }
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
 }

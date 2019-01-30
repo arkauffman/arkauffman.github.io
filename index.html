@@ -34,12 +34,14 @@
             <span id="hamburger-menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#projects">Portfolio</a>
+                <a href="#projects">Projects</a>
                 <a href="#skills">Skills</a>
                 <a href="./Resume/Resume.pdf">Resume</a>
             </div>
         </div>
     </header>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
 
     <div class="hero-image">
         <div class="hero-text">
@@ -51,9 +53,9 @@
 
     <div class="project-wrapper" id="projects">
         <div id="project-content">
-            <h1 style="text-align: center; letter-spacing: 2px; padding-top: 30px;">I am an engineer who works in agile environments, generating clean, efficient, and reusable code.</h1>
+            <h1 id="project-title">Projects</h1>
             <div class="row">
-                <div class="column">
+                <div class="column" id="ov">
                     <div class="image-wrapper">
                         <a href="https://www.oriannevarshajewelry.com" target="_blank">
                             <img src="./images/ring.png" class="project-images">
@@ -91,7 +93,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="column">
+                <div class="column" id="lmu">
                     <div class="image-wrapper">
                         <a href="http://listmeup.herokuapp.com/" target="_blank">
                             <img src="./images/list.png" class="project-images">
@@ -131,7 +133,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="column">
+                <div class="column" id="munch">
                     <div class="image-wrapper">
                         <a href="http://munchin.herokuapp.com/" target="_blank">
                             <img src="./images/Fridge.png" class="project-images">
@@ -150,7 +152,7 @@
                         <a href="https://github.com/arkauffman/munch" target="_blank"><i class="fa fa-github" aria-hidden="true" id="icon"></i></a>  
                     </div>
                 </div>
-                <div class="column">
+                <div class="column" id="more">
                     <div class="image-wrapper">
                         <a href="mailto:arkauffma@gmail.com" target="_blank">
                             <img src="./images/More.png" class="project-images">
@@ -175,18 +177,20 @@
 
     <div id="skills" class="skills-wrapper">
         <h1 id="skills-title">Skills</h1>
+        <h2 class="about">I am an engineer who works in agile environments, generating clean, efficient, and reusable code.</h2>
         <div class="row-skills">
             <div class="column-skills">
-                <h2>Front-end</h2>
-                <ul>
-                    <li>HTML/CSS</li>
+                <h2>FRONT-END </h2>
+                <ul class="skill-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
                     <li>JAVASCRIPT</li>
                     <li>REACT</li>
                 </ul>
             </div>
             <div class="column-skills">
-                <h2>Back-end</h2>
-                <ul>
+                <h2>BACK-END</h2>
+                <ul class="skill-list">
                     <li>NODE</li>
                     <li>NPM</li>
                     <li>PYTHON</li>
@@ -197,7 +201,7 @@
         <div class="row-skills">
             <div class="column-skills">
                 <h2>CMS</h2>
-                <ul>
+                <ul class="skill-list">
                     <li>WORDPRESS</li>
                     <li>SQUARESPACE</li>
                     <li>WIX</li>
@@ -206,7 +210,7 @@
             </div>
             <div class="column-skills">
                 <h2>DEV TOOLS</h2>
-                <ul>
+                <ul class="skill-list">
                     <li>ATOM</li>
                     <li>VS CODE</li>
                     <li>GIT/GITHUB</li>
@@ -237,6 +241,25 @@
         
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
+        }
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
 
