@@ -314,7 +314,7 @@ a.project-links:hover {
 }
 
 .skill-list {
-    display: grid;
+    display: inline-grid;
 }
 
 h2.about {
@@ -521,7 +521,7 @@ footer {
     }
 
     .column {
-        margin: 100px 0px 0 -30px !important;
+        margin: 100px 0px 0 -20px !important;
     }
 
     h2.about {
