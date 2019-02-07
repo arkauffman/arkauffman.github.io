@@ -668,6 +668,10 @@ footer {
         padding: 0 50px 40px 50px !important;
     }
 
+    .summar-wrapper h2 {
+        font-size: 20px;
+    }
+
     .column-skills h2 {
         font-size: 16px;
         font-weight: 900;
@@ -687,7 +691,7 @@ footer {
     }
 
     #ov {
-        margin-bottom: 50px !important;
+        margin-bottom: 0 !important;
     } 
 
     #war {
@@ -730,9 +734,13 @@ footer {
     }
 }
 
-@media screen and (max-width: 450) {
-    .column {
-        padding: 100px 0px 0 -25px !important;
+@media screen and (max-width: 450px) {
+    #ov {
+        margin-bottom: 40px !important;
+    }
+
+    #more {
+        margin-bottom: 0 !important;
     }
 }
 
