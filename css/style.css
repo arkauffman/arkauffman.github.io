@@ -23,6 +23,11 @@ body {
     transition: 0.5s;
     padding-top: 60px;
 }
+
+a.nav-item:hover {
+    color: #924c44 !important;
+    font-weight: 800;
+}
   
 .sidenav a {
     padding: 8px 8px 8px 32px;
