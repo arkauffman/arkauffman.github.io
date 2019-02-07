@@ -210,7 +210,7 @@ a:visited {
 .row {
     display: flex;
     margin-top: 100px;
-    margin-bottom: 180px;
+    margin-bottom: 235px;
 }
 
 .row-skills {
@@ -238,6 +238,7 @@ a:visited {
 #project-title {
     text-align: center; 
     color: #924c44;
+    padding-top: 30px;
 }
 
 #skills-title {
@@ -247,7 +248,7 @@ a:visited {
 
 .skills-wrapper {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     padding-bottom: 80px;
     background-color: #924c44;
     color: #fff;
@@ -271,7 +272,6 @@ a:visited {
     color: #232824;
     margin: 0 60px;
     padding: 20px 40px;
-    height: 280px;
 }
 
 .summary-wrapper h2 {
@@ -371,8 +371,7 @@ footer {
 
 .initials {
     float: right;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding: 20px 20px 0 10px;
     color: white;
     font-weight: 800;
     letter-spacing: .08em;
@@ -384,6 +383,28 @@ footer {
 
 #footer-wrapper {
     padding-top: 0;
+}
+
+@media only screen and (max-width: 918px) {
+    #war {
+        margin-bottom: -150px;
+    }
+
+    #potluck {
+        margin-bottom: -120px;
+    }
+
+    #ov, #lmu {
+        margin-bottom: 100px;
+    }
+
+    #munch {
+        margin-bottom: 120px;
+    }
+
+    #more {
+        margin-bottom: -200px;
+    }
 }
 
 @media only screen and (max-width: 798px) {
@@ -398,6 +419,27 @@ footer {
 
     .row-skills {
         margin: 0 100px;
+    }
+
+    #ov {
+        margin-top: 60px !important;
+        margin-bottom: -15px !important;
+    }
+
+    #war {
+        margin-bottom: -250px !important;
+    }
+
+    #lmu {
+        margin-bottom: 10px !important;
+    }
+
+    #potluck {
+        margin-bottom: -230px !important;
+    }
+
+    #munch {
+        margin-bottom: 20px !important;
     }
 }
 
@@ -445,6 +487,28 @@ footer {
     }
 }
 
+@media only screen and (max-width: 680px) {
+    #ov {
+        margin-bottom: 30px !important;
+    }
+
+    #war {
+        margin-bottom: -220px !important;
+    }
+
+    #lmu {
+        margin-bottom: 75px !important;
+    }
+
+    #potluck {
+        margin-bottom: -150px !important;
+    }
+
+    #munch {
+        margin-bottom: 100px !important;
+    }
+}
+
 @media only screen and (max-width: 640px) {
     .hero-image {
         height: 70%;
@@ -482,6 +546,14 @@ footer {
         width: 22px;
         height: 22px;
     }
+
+    .summary-wrapper p {
+        margin: 0 -50px !important;
+    }
+
+    #war {
+        margin-bottom: -280px !important;
+    }
 }
 
 @media screen and (max-width: 541px) {
@@ -513,12 +585,47 @@ footer {
         font-size: 25px;
     }
 
+    #project-title {
+        margin-bottom: 70px;
+        font-size: 2.5rem !important;
+    }
+
     .column {
         margin: 100px 30px 0 30px
     }
 
     .summary-wrapper p{
         font-size: 12px;
+    }
+
+    #ov {
+        height: 480px !important;
+        margin-bottom: 70px !important;
+    }
+
+    #war {
+        margin-bottom: -230px !important;
+    }
+
+    #lmu {
+        margin-bottom: 15px !important;
+        height: 500px !important;
+    }
+
+    #potluck {
+        margin-bottom: -180px !important;
+    }
+
+    #munch {
+        margin-bottom: 50px !important;
+    }
+
+    #more {
+        margin-bottom: -150px !important;
+    }
+
+    .skills-wrapper {
+        margin-top: -55px !important;
     }
 }
 
@@ -565,12 +672,28 @@ footer {
         padding-bottom: 30px;
     }
 
-    #ov, #more {
-        height: 500px;
+    #more, #lmu, #munch {
+        height: 600px;
     }
 
-    #lmu, #munch {
-        height: 550px;
+    #ov {
+        margin-bottom: 50px !important;
+    } 
+
+    #war {
+        margin-bottom: -55px !important;
+    }
+
+    #potluck {
+        margin-bottom: 15px !important;
+    }
+
+    #munch {
+        margin-bottom: -50px !important;
+    }
+
+    #more {
+        margin-bottom: 20px !important
     }
 
     #myBtn {
@@ -580,6 +703,10 @@ footer {
 
     .row-skills {
         margin: 0;
+    }
+
+    .summary-wrapper p {
+        margin: 0 -30px !important;
     }
 }
 
@@ -606,5 +733,9 @@ footer {
 
     #title {
         font-size: 45px;
+    }
+
+    #more {
+        margin-bottom: 0 !important;
     }
 }

@@ -7,7 +7,6 @@
     <title>Alexandra's Personal Website</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <!-- <script src="./js/main.js"></script> -->
     <!-- <link type="text/css" rel="stylesheet" href="./css/style.css">     -->
     <link type="text/css" rel="stylesheet" href="https://arkauffman.github.io/arkauffman.github.io/css/style.css">   
     <script src="https://use.fontawesome.com/36bb339d58.js"></script>
@@ -64,14 +63,15 @@
                     <div class="summary-wrapper">
                         <h2>Orianne Varsha Jewlery</h2>
                         <p>
-                            Jewelery website that highlights new products, sorts products by popularity,
-                            type, style, etc. 
+                            OVJ is a fine-jewelry website that highlights new, popular, and categorized
+                            products made locally in Los Angeles. It also gathers data about customers
+                            and website visitors, allowing for targeted marketing ads.
                             <br><br>
                             HTML, CSS, & Ruby. Powered by Shopify.
                         </p>
                     </div>
                 </div>
-                <div class="column">
+                <div class="column" id="war">
                     <div class="image-wrapper">
                         <a href="http://www.alexandrakauffman.com/war-game/" target="_blank">
                             <img src="./images/cards.png" class="project-images">
@@ -101,18 +101,20 @@
                     </div>
                     <div class="summary-wrapper">
                         <h1>List Me Up</h1>
-                        <p>With List Me Up, get daily SMS reminders of the items in your to-do list, as well
-                            as the weather forcast for your specified location.
+                        <p>
+                            With List Me Up, get daily SMS reminders of the items in your to-do list, as well
+                            as the weather forcast for your location. You'll never accidentally wear shorts
+                            in the rain again!
                             <br><br>
                             HTML, CSS, JavaScript, Node, & Express.
-                            <br>
+                            <br><br>
                         </p>
                     </div>
                     <div class="icon-wrapper">
                         <a href="https://github.com/list-me-up/ListMeUp" target="_blank"><i class="fa fa-github" aria-hidden="true" id="icon"></i></a>
                     </div>
                 </div>
-                <div class="column">
+                <div class="column" id="potluck">
                     <div class="image-wrapper">
                         <a href="http://potluckticality.herokuapp.com/" target="_blank">
                             <img src="./images/plate.png" class="project-images">
@@ -120,11 +122,12 @@
                     </div>
                     <div class="summary-wrapper">
                         <h1>Potluckticality</h1>
-                        <p>An invitation based app for users to create events, 
-                            send out e-invitations and keep track of attending guests.
+                        <p>
+                            Potluckticality is an invitation-based app for users to create events, 
+                            send out e-invitations and keep track of attending guests. Comments on the event pages 
+                            allow for users to specify what type of dish they are bringing to the party.
                             <br><br>
                             HTML, CSS, JavaScript, Node, & Express.
-                            <br><br>
                         </p>
                     </div>
                     <div class="icon-wrapper">
@@ -141,8 +144,10 @@
                     </div>
                     <div class="summary-wrapper">
                         <h1>Munchin'</h1>
-                        <p>Search through hundreds of thousands of recipes and favorite/unfavorite those you 
-                            wish to add to your grocery list. 
+                        <p>
+                            With Munchin', a user is able to search through hundreds of thousands of 
+                            recipes and favorite/unfavorite those they wish to add to their grocery list. That way,
+                            they can keep track of everything they need to buy at the grocery store in one place.
                             <br><br>
                             HTML, CSS, JavaScript, React, Node, & Express. 
                             <br> 
@@ -160,12 +165,11 @@
                     </div>
                     <div class="summary-wrapper">
                         <h1>More</h1>
-                        <p>Contact me below if you'd like to learn about what I'm
+                        <p>Contact me below if you'd like to learn about what I am
                             currently working on.
                             <br><br>
                             HTML, CSS, JavaScript, React, & Python.  
                         </p>
-                        <br><br>
                     </div>
                     <div class="icon-wrapper">
                         <a href= "mailto:arkauffma@gmail.com"><i class="fa fa-google" aria-hidden="true" id="icon"></i></a>
@@ -258,13 +262,9 @@
 
         // When the user clicks on the button, scroll to the top of the document
         function topFunction() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
     </script>
-
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
 </body>
 </html>
