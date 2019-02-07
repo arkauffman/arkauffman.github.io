@@ -28,6 +28,11 @@ a.nav-item:hover {
     color: #924c44 !important;
     font-weight: 800;
 }
+
+a#resume:hover, a#project-button:hover {
+    color: #fff !important;
+    font-weight: 800 !important;
+}
   
 .sidenav a {
     padding: 8px 8px 8px 32px;
