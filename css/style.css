@@ -488,7 +488,7 @@ footer {
         flex: 100%;
     }
 
-    #project-content h1 {
+    #project-content h1, #project-content h2 {
         font-size: 35px;
     }
 
@@ -591,8 +591,8 @@ footer {
         font-size: 15px;
     }
 
-    #project-content h1 {
-        font-size: 25px;
+    #project-content h1, #project-content h2 {
+        font-size: 25px !important;
     }
 
     #project-title {
