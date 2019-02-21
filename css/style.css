@@ -66,8 +66,7 @@ a#resume:hover, a#project-button:hover {
 }
 
 a.title:hover {
-    font-size: 35px;
-    color: white;
+    color: #924c44;
 }
 
 #header {
@@ -258,7 +257,7 @@ a:visited {
 
 #skills-title {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 .skills-wrapper {
@@ -339,10 +338,10 @@ a.project-links:hover {
 }
 
 h2.about {
-    padding: 0 180px 65px 180px;
+    padding: 0 280px 80px 280px;
     text-align: center;
     letter-spacing: 2px;
-    font-size: 28px;
+    font-size: 22px;
 }
 
 ul, li {
@@ -688,7 +687,7 @@ footer {
 
     #skills-title {
         font-size: 30px;
-        padding-bottom: 30px;
+        /* padding-bottom: 30px; */
     }
 
     #more, #lmu, #munch {
