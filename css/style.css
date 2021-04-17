@@ -36,7 +36,6 @@ a.nav-item:hover {
 
 a#resume:hover, a#project-button:hover {
     color: #fff !important;
-    font-weight: 800 !important;
 }
   
 .sidenav a {
@@ -304,6 +303,7 @@ a:visited {
 .project-images {
     width: 300px;
     height: 300px;
+    border: white 4px solid;
 }
 
 .project-images:hover {
