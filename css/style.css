@@ -29,9 +29,12 @@ h1, h2 {
     padding-top: 60px;
 }
 
+a.nav-item {
+    font-weight: 700;
+}
+
 a.nav-item:hover {
     color: #924c44 !important;
-    font-weight: 800;
 }
 
 a#resume:hover, a#project-button:hover {
