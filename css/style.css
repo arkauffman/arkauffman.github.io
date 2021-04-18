@@ -30,7 +30,7 @@ h1, h2 {
 }
 
 a.nav-item {
-    font-weight: 700;
+    font-weight: 700 !important;
 }
 
 a.nav-item:hover {
