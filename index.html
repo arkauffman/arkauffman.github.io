@@ -17,13 +17,12 @@
         <div class="header-wrapper">
             <div class="site-title">
                 <h1 id="name-title">
-                    <a href="/" class="title">AK</a>
+                    <a href="/" class="title">AB</a>
                 </h1>
             </div>
             <div class="header-inner">
                 <div class="main-wrapper">
                     <nav>
-                        <a href="#projects" class="nav-item">Projects</a>
                         <a href="#skills" class="nav-item">Skills</a>
                         <a href="https://drive.google.com/file/d/1TtOn6Yq_gwkKnwTGJMT4fq3k1_dkPM4o/view?usp=sharing" target="_blank" class="nav-item" id="resume">Resume</a>
                     </nav> 
@@ -31,136 +30,25 @@
             </div>
 
             <span id="hamburger-menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-            <div id="mySidenav" class="sidenav">
+            <div id="hamburger-side-nav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#projects">Projects</a>
                 <a href="#skills">Skills</a>
                 <a href="https://drive.google.com/file/d/1TtOn6Yq_gwkKnwTGJMT4fq3k1_dkPM4o/view?usp=sharing" target="_blank">Resume</a>
             </div>
         </div>
     </header>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
+    <button onclick="topFunction()" id="scroll-button" title="Go to top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
 
     <div class="hero-image">
         <div class="hero-text">
-            <h3 id="name">ALEXANDRA KAUFFMAN</h3>
-            <h1 id="title">JavaScript Engineer</h1>
-            <button class="btn"><a href="#projects" id="project-button">View My Projects</a></button>
-        </div>
-    </div>
-
-    <div class="project-wrapper" id="projects">
-        <div id="project-content">
-            <h1 id="project-title">Projects</h1>
-            <div class="row">
-                <div class="column" id="ov">
-                    <div class="image-wrapper">
-                        <a href="https://www.oriannevarshajewelry.com" target="_blank">
-                            <img src="./images/ring.png" class="project-images">
-                        </a>
-                    </div>
-                    <div class="summary-wrapper">
-                        <h1>Orianne Varsha Jewlery</h1>
-                        <p>
-                            OVJ is a fine-jewelry website that highlights new, popular, and categorized
-                            products made locally in Los Angeles. It also gathers data about customers
-                            and website visitors, allowing for targeted marketing ads.
-                            <br><br>
-                            HTML, CSS, & Ruby. Powered by Shopify.
-                        </p>
-                    </div>
-                </div>
-                <div class="column" id="war">
-                    <div class="image-wrapper">
-                        <a href="http://www.alexandrakauffman.com/war-game/" target="_blank">
-                            <img src="./images/cards.png" class="project-images">
-                        </a>        
-                    </div>
-                    <div class="summary-wrapper">
-                        <h1>War</h1>
-                        <p>
-                            In this two-player card game, friends can face the 
-                            ultimate battle and see who wins the entire deck of cards. 
-                            Keep track of your scores and play the final duel.
-                            <br><br>
-                            HTML, CSS, & JavaScript.
-                        </p>
-                    </div>
-                    <div class="icon-wrapper">
-                        <a href="https://github.com/arkauffman/war-game" target="_blank"><i class="fa fa-github" aria-hidden="true" id="icon"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="column" id="lmu">
-                    <div class="image-wrapper">
-                        <a href="http://listmeup.herokuapp.com/" target="_blank">
-                            <img src="./images/list.png" class="project-images">
-                        </a>
-                    </div>
-                    <div class="summary-wrapper">
-                        <h1>List Me Up</h1>
-                        <p>
-                            With List Me Up, get daily SMS reminders of the items in your to-do list, as well
-                            as the weather forcast for your location. You'll never accidentally wear shorts
-                            in the rain again!
-                            <br><br>
-                            HTML, CSS, JavaScript, Node, & Express.
-                            <br><br>
-                        </p>
-                    </div>
-                    <div class="icon-wrapper">
-                        <a href="https://github.com/list-me-up/ListMeUp" target="_blank"><i class="fa fa-github" aria-hidden="true" id="icon"></i></a>
-                    </div>
-                </div>
-                <div class="column" id="potluck">
-                    <div class="image-wrapper">
-                        <a href="http://potluckticality.herokuapp.com/" target="_blank">
-                            <img src="./images/plate.png" class="project-images">
-                        </a>
-                    </div>
-                    <div class="summary-wrapper">
-                        <h1>Potluckticality</h1>
-                        <p>
-                            Potluckticality is an invitation-based app for users to create events, 
-                            send out e-invitations and keep track of attending guests. Comments on the event pages 
-                            allow for users to specify what type of dish they are bringing to the party.
-                            <br><br>
-                            HTML, CSS, JavaScript, Node, & Express.
-                        </p>
-                    </div>
-                    <div class="icon-wrapper">
-                        <a href="https://github.com/Potluckticality/Potluckticality" target="_blank"><i class="fa fa-github" aria-hidden="true" id="icon"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="column" id="more">
-                    <div class="image-wrapper">
-                        <a href="mailto:arkauffma@gmail.com" target="_blank">
-                            <img src="./images/More.png" class="project-images">
-                        </a>
-                    </div>
-                    <div class="summary-wrapper">
-                        <h1>More</h1>
-                        <p>Contact me below if you'd like to learn about what I am
-                            currently working on.
-                            <br><br>
-                            HTML, CSS, JavaScript, React, & Redux.  
-                        </p>
-                    </div>
-                    <div class="icon-wrapper">
-                        <a href= "mailto:arkauffma@gmail.com"><i class="fa fa-google" aria-hidden="true" id="icon"></i></a>
-                    </div>
-                </div>
-            </div>
+            <h3 id="full-name">ALEXANDRA BLOCH</h3>
+            <h1 id="title">Engineering Manager</h1>
         </div>
     </div>
 
     <div id="skills" class="skills-wrapper">
         <h1 id="skills-title">Skills</h1>
-        <h2 class="about">I am an engineer who works in agile environments, generating clean, efficient, and reusable code.</h2>
         <div class="row-skills">
             <div class="column-skills">
                 <h2>FRONT-END </h2>
@@ -177,7 +65,7 @@
                 <h2>BACK-END</h2>
                 <ul class="skill-list">
                     <li>NODE</li>
-                    <li>NPM</li>
+                    <li>MYSQL</li>
                 </ul>
             </div>
         </div>
@@ -194,7 +82,6 @@
             <div class="column-skills">
                 <h2>DEV TOOLS</h2>
                 <ul class="skill-list">
-                    <li>ATOM</li>
                     <li>VS CODE</li>
                     <li>GIT/GITHUB</li>
                     <li>TERMINAL</li>
@@ -205,7 +92,7 @@
 
     <footer class="navbar navbar-fixed-bottom" id="footer">
         <div id="copyright">
-            <p class="initials">ARK &nbsp; ©</p>
+            <p class="initials">ARB &nbsp; ©</p>
         </div>
         <div id="footer-wrapper">
             <ul> 
@@ -218,11 +105,11 @@
 
     <script>
         function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("hamburger-side-nav").style.width = "250px";
         }
         
         function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("hamburger-side-nav").style.width = "0";
         }
 
         // When the user scrolls down 20px from the top of the document, show the button
@@ -232,9 +119,9 @@
 
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("myBtn").style.display = "block";
+                document.getElementById("scroll-button").style.display = "block";
             } else {
-                document.getElementById("myBtn").style.display = "none";
+                document.getElementById("scroll-button").style.display = "none";
             }
         }
 
