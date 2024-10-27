@@ -9,5 +9,5 @@
 
 ### Contact
 * Check out my [GitHub](http://github.com/arkauffman)
-* Check out my [LinkedIn](http://linkedin.com/alexandrakauffman)
+* Check out my [LinkedIn](http://linkedin.com/alexandrabloch)
 * Contact me at <arkauffma@gmail.com>
