@@ -8,6 +8,6 @@
 * Los Angeles, California
 
 ### Contact
-* Check out my [GitHub](http://github.com/arkauffman)
-* Check out my [LinkedIn](http://linkedin.com/alexandrabloch)
+* Check out my [GitHub](https://github.com/arkauffman)
+* Check out my [LinkedIn](htts://linkedin.com/alexandrabloch)
 * Contact me at <arkauffma@gmail.com>
