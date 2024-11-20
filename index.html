@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel = "icon" href = "https://arkauffman.github.io/arkauffman.github.io/images/heart.png">
     <title>Alexandra's Personal Website</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="./css/style.css">    
     <link type="text/css" rel="stylesheet" href="https://arkauffman.github.io/arkauffman.github.io/css/style.css">   
@@ -23,7 +26,7 @@
             <div class="header-inner">
                 <div class="main-wrapper">
                     <nav>
-                        <a href="#skills" class="nav-item">Skills</a>
+                        <a href="#skills" class="nav-item">Contact</a>
                         <a href="https://drive.google.com/file/d/1TtOn6Yq_gwkKnwTGJMT4fq3k1_dkPM4o/view?usp=sharing" target="_blank" class="nav-item" id="resume">Resume</a>
                     </nav> 
                 </div>
@@ -32,7 +35,7 @@
             <span id="hamburger-menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
             <div id="hamburger-side-nav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#skills">Skills</a>
+                <a href="#skills">Contact</a>
                 <a href="https://drive.google.com/file/d/1TtOn6Yq_gwkKnwTGJMT4fq3k1_dkPM4o/view?usp=sharing" target="_blank">Resume</a>
             </div>
         </div>
@@ -40,14 +43,23 @@
 
     <button onclick="topFunction()" id="scroll-button" title="Go to top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
 
-    <div class="hero-image">
-        <div class="hero-text">
-            <h3 id="full-name">ALEXANDRA BLOCH</h3>
-            <h1 id="title">Engineering Manager</h1>
+    <div id="top-container">
+        <div id="welcome-container">
+            <div id="welcome-name">Hey, I’m Alex.</div>
+            <div id="welcome-about">
+                I am an Engineering Manager and have worked in tech for 8+ years. While managing is my full-time job, 
+                I build websites on the side!
+                <div id="button-container">
+                    <button id="round-button">Let's work together!</button>
+                </div>
+            </div>
+        </div>
+        <div id="image-container">
+            <img src="https://i.imgur.com/wI5XZRw.jpg" />
         </div>
     </div>
 
-    <div id="skills" class="skills-wrapper">
+    <!-- <div id="skills" class="skills-wrapper">
         <h1 id="skills-title">Skills</h1>
         <div class="row-skills">
             <div class="column-skills">
@@ -88,11 +100,11 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <footer class="navbar navbar-fixed-bottom" id="footer">
         <div id="copyright">
-            <p class="initials">ARB &nbsp; ©</p>
+            <p class="initials">AB ©</p>
         </div>
         <div id="footer-wrapper">
             <ul> 
