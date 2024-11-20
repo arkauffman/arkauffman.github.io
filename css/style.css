@@ -538,6 +538,11 @@ footer {
 
 
 @media screen and (max-width: 490px) {
+    #welcome-name {
+        font-size: 35px;
+        padding: 20px 20px;
+    }
+
     .skills-wrapper {
         padding-bottom: 30px;
     }
