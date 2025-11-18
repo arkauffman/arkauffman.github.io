@@ -64,7 +64,7 @@ a#resume:hover, a#project-button:hover {
 
 .title, a.title:hover {
     font-weight: 600;
-    color: #222b13;
+    color: #B15813;
     font-size: 28px;
 }
 
@@ -355,7 +355,7 @@ a:visited {
 
 .case-study-link {
     display: inline-block;
-    background-color: #B9BBB4;
+    background-color: #e4e0db;
     border: 2px solid #222b13;
     padding: 10px 26px;
     border-radius: 50px;
