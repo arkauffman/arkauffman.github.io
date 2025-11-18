@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="./css/style.css">    
+    <!-- <link type="text/css" rel="stylesheet" href="./css/style.css">     -->
     <link type="text/css" rel="stylesheet" href="https://arkauffman.github.io/arkauffman.github.io/css/style.css">   
     <script src="https://use.fontawesome.com/36bb339d58.js"></script>
 </head>
@@ -26,17 +26,17 @@
             <div class="header-inner">
                 <div class="main-wrapper">
                     <nav>
-                        <a href="#skills" class="nav-item">Contact</a>
+                        <a href="mailto:arosebloch@gmail.com" class="nav-item">Contact</a>
                         <a href="https://drive.google.com/file/d/1TtOn6Yq_gwkKnwTGJMT4fq3k1_dkPM4o/view?usp=sharing" target="_blank" class="nav-item" id="resume">Resume</a>
                     </nav> 
                 </div>
             </div>
 
-            <span id="hamburger-menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <span id="hamburger-menu" onclick="openNav()">&#9776;</span>
             <div id="hamburger-side-nav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#skills">Contact</a>
-                <a href="https://drive.google.com/file/d/1TtOn6Yq_gwkKnwTGJMT4fq3k1_dkPM4o/view?usp=sharing" target="_blank">Resume</a>
+                <a href="mailto:arosebloch@gmail.com" class="mobile-nav-item">Contact</a>
+                <a href="https://drive.google.com/file/d/1TtOn6Yq_gwkKnwTGJMT4fq3k1_dkPM4o/view?usp=sharing" target="_blank" class="mobile-nav-item">Resume</a>
             </div>
         </div>
     </header>
@@ -45,63 +45,111 @@
 
     <div id="top-container">
         <div id="welcome-container">
-            <div id="welcome-name">UNDER CONSTRUCTION!</div>
-            <!-- <div id="welcome-name">Hey, I’m Alex.</div>
+            <div id="welcome-name">Hey, I’m Alex.</div>
             <div id="welcome-about">
-                I am an Engineering Manager and have worked in tech for 8+ years. While managing is my full-time job, 
-                I build websites on the side!
+                    I’m an Engineering Manager guiding AI engineers and helping teams build thoughtful, high-impact products. 
+                    I’ve spent over eight years in tech, beginning in front-end development before stepping into engineering management. 
+                    I’m a bit of an organization nerd, obsessed with clean processes, great communication, and the tiny details that make a product shine.
                 <div id="button-container">
-                    <button id="round-button">Let's work together!</button>
+                    <a href="mailto:arosebloch@gmail.com" id="round-button">Let's work together!</a>
                 </div>
-            </div> -->
+            </div>
         </div>
-        <!-- <div id="image-container"> -->
-            <!-- <img src="https://i.imgur.com/wI5XZRw.jpg" /> -->
-        <!-- </div> -->
+        <div id="image-container">
+            <img src="https://i.imgur.com/wI5XZRw.jpg" />
+        </div>
     </div>
 
-    <!-- <div id="skills" class="skills-wrapper">
-        <h1 id="skills-title">Skills</h1>
-        <div class="row-skills">
-            <div class="column-skills">
-                <h2>FRONT-END </h2>
-                <ul class="skill-list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVASCRIPT</li>
-                    <li>REACT</li>
-                    <li>TYPESCRIPT</li>
-                    <li>REDUX</li>
-                </ul>
+    <div id="approach-section">
+        <div class="approach-wrapper">
+            <div class="approach-image-container">
+                <img src="./images/website_computer.jpg" alt="Workspace setup" class="approach-image" />
             </div>
-            <div class="column-skills">
-                <h2>BACK-END</h2>
-                <ul class="skill-list">
-                    <li>NODE</li>
-                    <li>MYSQL</li>
-                </ul>
+            <div class="approach-text-container">
+                <h1 id="approach-title">My Approach</h1>
+                <div class="approach-content">
+                    <div class="approach-item">
+                        <h2 class="approach-heading">Collaborative</h2>
+                        <p class="approach-text">I believe in the power of collaboration to create exceptional products. As an extension of your team, I immerse myself in your vision and goals. I work closely with you to develop a website that not only reflects your brand but exceeds your expectations.</p>
+                    </div>
+                    <div class="approach-item">
+                        <h2 class="approach-heading">Iterative</h2>
+                        <p class="approach-text">I take an iterative approach in my work to ensure the final result aligns with your creative vision and reflects your unique brand identity. We'll work together to refine and fine-tune your site's design, leaving no detail overlooked.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row-skills">
-            <div class="column-skills">
-                <h2>CMS</h2>
-                <ul class="skill-list">
-                    <li>WORDPRESS</li>
-                    <li>SQUARESPACE</li>
-                    <li>WIX</li>
-                    <li>SHOPIFY</li>
-                </ul>
+    </div>
+
+    <div id="portfolio-section">
+        <h1 id="portfolio-title">Portfolio</h1>
+        <div class="portfolio-grid">
+            <div class="case-study-card">
+                <h2 class="case-study-title">Orianne Jewelry</h2>
+                <p class="case-study-description">
+                    Crafted a luxury-forward e-commerce experience for jewelry designer Orianne, focusing on elegant product presentation, 
+                    seamless shopping flows, and a brand look that feels refined and modern.
+                </p>
+                <a href="https://oriannejewelry.com" class="case-study-link" target="_blank">View Project</a>
             </div>
-            <div class="column-skills">
-                <h2>DEV TOOLS</h2>
-                <ul class="skill-list">
-                    <li>VS CODE</li>
-                    <li>GIT/GITHUB</li>
-                    <li>TERMINAL</li>
-                </ul>
+            <div class="case-study-card">
+                <h2 class="case-study-title">Julia Mamelak, PSY.D.</h2>
+                <p class="case-study-description">
+                    Designed and developed a clean, educational website for psychologist Dr. Julia Mamelak, showcasing her education, 
+                    specialties, and therapeutic approach, with integrated scheduling to streamline new-client intake.
+                </p>
+                <a href="https://drjuliamamelak.com" target="_blank" class="case-study-link">View Project</a>
+            </div>
+            <div class="case-study-card">
+                <h2 class="case-study-title">Speech Buds Therapy</h2>
+                <p class="case-study-description">
+                    Built an inviting, family-friendly website for Speech Pathologist Shir Lavian, featuring clear service information, 
+                    educational resources, and easy online scheduling for clients across Los Angeles.
+                </p>
+                <a href="https://www.speechbudstherapy.com" target="_blank" class="case-study-link">View Project</a>
             </div>
         </div>
-    </div> -->
+    </div>
+
+    <div id="faq-section">
+        <div class="faq-wrapper">
+            <div class="faq-content">
+                <h1 id="faq-title">FAQ</h1>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFaq(this)">
+                            <span class="faq-question-text">Where Do We Begin?</span>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We start with a discovery call where we discuss your vision, goals, and requirements. This helps me understand your brand and create a website that truly represents you.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFaq(this)">
+                            <span class="faq-question-text">What Are My Prices?</span>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Pricing varies based on the scope and complexity of your project. During our initial consultation, I'll provide a detailed quote tailored to your specific needs.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFaq(this)">
+                            <span class="faq-question-text">How Long Does an Engagement Last?</span>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Project timelines typically range from 4-8 weeks, depending on the complexity and scope. We'll establish a timeline during our initial consultation and keep you updated throughout the process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-image-container">
+                <img src="./images/faq_computer.jpg" alt="Workspace" class="faq-image" />
+            </div>
+        </div>
+    </div>
 
     <footer class="navbar navbar-fixed-bottom" id="footer">
         <div id="copyright">
@@ -109,7 +157,7 @@
         </div>
         <div id="footer-wrapper">
             <ul> 
-                <li class="icons"><a href= "mailto:arkauffma@gmail.com"> <i class="fa fa-google" aria-hidden="true"></i></a></li>
+                <li class="icons"><a href="mailto:arosebloch@gmail.com" target="_blank"> <i class="fa fa-google" aria-hidden="true"></i></a></li>
                 <li class="icons"><a href="https://www.linkedin.com/in/alexandrabloch" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                 <li class="icons"><a href="https://github.com/arkauffman" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
             </ul> 
@@ -131,17 +179,69 @@
         };
 
         function scrollFunction() {
+            const scrollButton = document.getElementById("scroll-button");
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("scroll-button").style.display = "block";
+                scrollButton.style.display = "block";
+                setTimeout(function() {
+                    scrollButton.classList.add("show");
+                }, 10);
             } else {
-                document.getElementById("scroll-button").style.display = "none";
+                scrollButton.classList.remove("show");
+                setTimeout(function() {
+                    scrollButton.style.display = "none";
+                }, 300);
             }
         }
 
         // When the user clicks on the button, scroll to the top of the document
         function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
+            const scrollButton = document.getElementById("scroll-button");
+            const scrollDuration = 800; // Duration in milliseconds
+            const scrollStep = -window.scrollY / (scrollDuration / 15);
+            let scrollCount = 0;
+            let scrollInterval;
+
+            // Add scrolling class for animation
+            scrollButton.classList.add("scrolling");
+
+            scrollInterval = setInterval(function() {
+                if (window.scrollY !== 0) {
+                    window.scrollBy(0, scrollStep);
+                    scrollCount++;
+                } else {
+                    clearInterval(scrollInterval);
+                    scrollButton.classList.remove("scrolling");
+                }
+            }, 15);
+        }
+
+        function toggleFaq(element) {
+            const faqItem = element.parentElement;
+            const faqAnswer = faqItem.querySelector('.faq-answer');
+            const faqToggle = element.querySelector('.faq-toggle');
+            const isOpen = faqItem.classList.contains('active');
+
+            // Close all other FAQ items
+            document.querySelectorAll('.faq-item').forEach(item => {
+                if (item !== faqItem) {
+                    item.classList.remove('active');
+                    const answer = item.querySelector('.faq-answer');
+                    const toggle = item.querySelector('.faq-toggle');
+                    answer.style.maxHeight = null;
+                    toggle.textContent = '+';
+                }
+            });
+
+            // Toggle current FAQ item
+            if (isOpen) {
+                faqItem.classList.remove('active');
+                faqAnswer.style.maxHeight = null;
+                faqToggle.textContent = '+';
+            } else {
+                faqItem.classList.add('active');
+                faqAnswer.style.maxHeight = faqAnswer.scrollHeight + 'px';
+                faqToggle.textContent = '−';
+            }
         }
     </script>
 </body>
