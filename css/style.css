@@ -762,7 +762,8 @@ footer {
     #hamburger-menu {
         display: block;
         margin-right: -10px;
-        color: #636B2F;
+        color: #B15813;
+        font-size: 45px;
     }
 
     .nav-item {
