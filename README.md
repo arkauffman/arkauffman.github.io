@@ -1,4 +1,4 @@
-# Alexandra Kauffman
+# Alexandra Bloch
 
 ### Education
 * de Toledo High School - 2013
